@@ -1,0 +1,316 @@
+/* ====================================================================
+   1. IMPORTACIÓN DE FUENTES DE GOOGLE (Raleway, Cormorant Garamond)
+   ==================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Raleway:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #8a8d5f; /* texto verde */
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #ffffff; /* Fondo principal */
+  color: #333;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1400px; /* sigue limitando en desktop */
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .app-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  border-bottom: 1px solid #d8c3a5;
+}
+
+header h1 {
+  display: none;
+}
+
+/* ====================================================================
+   3. ESTILOS PARA NAVBAR.JSX
+   ==================================================================== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: none;
+}
+.navbar-logo {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+.navbar-brand a {
+  font-size: 1.8em;
+  font-weight: 700;
+  /* FUENTE DEL LOGO/MARCA */
+  font-family: "Cormorant Garamond", serif;
+  color: #a2674c; /* Terracota Natural */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-brand a:hover {
+  color: #7bafac; /* Agua Suave */
+}
+
+.navbar-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #8a8d5f; /* texto verde */
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #a2674c; /* Terracota Natural */
+}
+
+/* ====================================================================
+   4. ESTILOS DEL CATÁLOGO (ProductCard.jsx & Catalog.jsx)
+   ==================================================================== */
+
+.catalog-grid h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 2em;
+  color: #a2674c; /* Terracota Natural */
+}
+
+.products-container {
+  display: grid;
+  /* Múltiples columnas responsivas */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+/* --- TARJETA DE PRODUCTO (PRODUCT-CARD) --- */
+.product-card {
+  /* CLAVE 1: position: relative para que la superposición sea absoluta respecto a él */
+  position: relative;
+  display: block;
+  /* Borde completamente removido (none) */
+  border: none;
+
+  border-radius: 0;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+
+  /* Sombra inicial CERO */
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+  transition: box-shadow 0.2s ease-in-out;
+  background-color: #f2ece4; /* Fondo Arena Pálida */
+}
+
+.product-card:hover {
+  transform: none;
+  /* Sombra sutil solo al hacer hover (para el efecto de levantamiento) */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.product-card-image {
+  width: 100%;
+  /* Imagen dominante en la card */
+  height: 350px;
+  overflow: hidden;
+  display: block;
+}
+
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-card-image img {
+  transform: scale(1.03); /* Zoom sutil al pasar el ratón */
+}
+
+/* --- ZONA DE INFORMACIÓN POSICIONADA ENCIMA DE LA IMAGEN (OVERLAY) --- */
+.product-card-info-overlay {
+  /* CLAVE 2: Posicionamiento absoluto */
+  position: absolute;
+  bottom: 0; /* Lo fija en la parte inferior */
+  left: 0;
+  width: 100%;
+  /* Estilos del fondo semi-transparente */
+  background-color: rgba(123, 175, 172, 0.35 ); /* Fondo Agua Suave con opacidad */
+  backdrop-filter: blur(6px); /* Efecto de desenfoque sutil (opcional) */
+
+  padding: 10px 5px;
+  text-align: center;
+  color: #333;
+  transition: opacity 0.3s ease;
+}
+
+.product-card-info-overlay h3 {
+  margin: 0 0 3px 0;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff; /* Terracota Natural */
+}
+
+.product-card-info-overlay .price {
+  font-size: 1em;
+  color: #ffffff; /* Precio en Agua Suave */
+  font-weight: 400;
+  margin: 0;
+}
+
+/* ====================================================================
+   5. ESTILOS PARA DETALLE DE PRODUCTO (ProductDetail.jsx)
+   ==================================================================== */
+
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.gallery-section {
+  flex: 1;
+  min-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.gallery-section .gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #d8c3a5;
+}
+
+.info-section {
+  flex: 1.5;
+  min-width: 300px;
+}
+
+.info-section h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+  color: #a2674c; /* Título en Terracota Natural */
+}
+
+.info-section .detail-price {
+  font-size: 2em;
+  color: #7bafac; /* Precio en Agua Suave */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info-section .detail-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Indicadores de Stock */
+.info-section .detail-stock {
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.info-section .detail-stock.in-stock {
+  background-color: #e3f5e0;
+  color: #8a8d5f; /* Verde Oliváceo */
+  border: 1px solid #8a8d5f;
+}
+
+.info-section .detail-stock.out-of-stock {
+  background-color: #f7e9e4;
+  color: #a2674c; /* Terracota Natural */
+  border: 1px solid #a2674c;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #7bafac; /* Botón en Agua Suave */
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.contact-button:hover {
+  background-color: #a2674c; /* Hover a Terracota Natural */
+}
+
+/* ====================================================================
+   6. MEDIA QUERIES (RESPONSIVIDAD)
+   ==================================================================== */
+
+@media (max-width: 768px) {
+  .products-container {
+    /* Columna única en móvil/tabletas pequeñas */
+    grid-template-columns: 1fr;
+  }
+
+  .product-detail {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .gallery-section {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-links a {
+    margin: 0 10px;
+  }
+}
