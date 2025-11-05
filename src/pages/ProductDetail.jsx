@@ -4,6 +4,8 @@ import { Box, Typography, Button } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import CustomButton from "../components/CustomButton";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -154,16 +156,9 @@ function ProductDetail() {
           {stockMessage}
         </Typography>
 
-        <Button
-          variant="contained"
-          sx={{
-            backgroundColor: theme.palette.terracota.main,
-            "&:hover": { backgroundColor: theme.palette.arcillaSuave.main },
-          }}
-          href="mailto:hola@kahluceramica.com"
-        >
-          Hacer Pedido
-        </Button>
+        <CustomButton onClick={() => navigate("/contact")}>
+          Consultar disponibilidad
+        </CustomButton>
       </Box>
 
       {/* Estilos adicionales del Swiper */}

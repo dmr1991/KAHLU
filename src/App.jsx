@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import theme from "./theme/theme";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact"; 
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
               <Route path="/catalog" element={<Catalog />} />
               <Route path="/products/:slug" element={<ProductDetail />} />
               <Route path="*" element={<h2>404: Página no encontrada</h2>} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>
         </div>

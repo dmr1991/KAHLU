@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import { useNavigate } from "react-router-dom";
+import CustomButton from "../components/CustomButton";
 
 function Home() {
   const theme = useTheme();
@@ -11,8 +12,8 @@ function Home() {
     <Box
       sx={{
         width: "100%",
-        height: { xs: "70vh", md: "90vh" },
-        backgroundImage: `url("/assets/bg.jpg")`, // 👈 pon aquí tu imagen hero
+        height: { xs: "90vh", md: "90vh" },
+        backgroundImage: `url("/assets/DK1A6444.jpg")`, // 👈 pon aquí tu imagen hero
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -33,7 +34,7 @@ function Home() {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(178, 178, 178, 0.35)",
+          backgroundColor: "rgba(255, 255, 255, 0.51)",
           zIndex: 0,
         }}
       />
@@ -43,44 +44,32 @@ function Home() {
         <Typography
           variant="h2"
           sx={{
-            fontFamily: '"Cormorant Garamond", serif',
+            fontFamily: "'Montserrat', serif",
             fontWeight: 600,
+            textTransform: "uppercase",
+            color: theme.palette.terracota.main,
             mb: 2,
             fontSize: { xs: "2rem", md: "3.5rem" },
           }}
         >
-          Cerámica artesanal que inspira
+          Piezas de cerámica hechas 100% a mano.
         </Typography>
 
         <Typography
           variant="h6"
           sx={{
-            mb: 4,
+            mb: 10,
             maxWidth: "600px",
             margin: "0 auto",
           }}
         >
-          Piezas únicas hechas a mano con amor y dedicación. Descubre nuestra
-          colección cuidadosamente elaborada.
+          Piezas funcionales y decorativas únicas, hechas a mano en torno o
+          usando técnica de modelado a mano.
         </Typography>
 
-        <Button
-          variant="contained"
-          size="large"
-          onClick={() => navigate("/catalog")}
-          sx={{
-            backgroundColor: theme.palette.terracota.main,
-            fontSize: "1.1rem",
-            px: 4,
-            py: 1.5,
-            borderRadius: "30px",
-            "&:hover": {
-              backgroundColor: theme.palette.arcillaSuave.main,
-            },
-          }}
-        >
+        <CustomButton onClick={() => navigate("/catalog")}sx={{ mt: 3 }}>
           Ver Catálogo
-        </Button>
+        </CustomButton>
       </Box>
     </Box>
   );
