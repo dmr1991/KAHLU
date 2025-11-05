@@ -14,7 +14,7 @@ function Contact() {
     setStatus("sending");
 
     const formData = new FormData(e.target);
-    const response = await fetch("https://formspree.io/f/tu-id-aqui", {
+    const response = await fetch("https://formspree.io/f/mgvpjgzo", {
       method: "POST",
       body: formData,
       headers: { Accept: "application/json" },
@@ -29,7 +29,7 @@ function Contact() {
   };
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("hola@kahluceramica.com");
+    navigator.clipboard.writeText("kahluceramica@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
