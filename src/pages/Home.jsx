@@ -64,7 +64,7 @@ function Home() {
           }}
         >
           Piezas funcionales y decorativas únicas, hechas a mano en torno o
-          usando técnica de modelado a mano.
+          usando técnicas de modelado a mano.
         </Typography>
 
         <CustomButton onClick={() => navigate("/catalog")}sx={{ mt: 3 }}>
