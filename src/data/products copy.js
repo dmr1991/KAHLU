@@ -2,6 +2,31 @@ import { Snowboarding } from "@mui/icons-material";
 
 const products = [
   {
+    id: "1",
+    title: "Jarrón 'Cielo Lavanda'",
+    price: 190.0,
+    stock: 0,
+    description: `
+Jarrón modelado de arcilla blanca trabajado en torno.  
+Esmalte con sutiles transiciones en tonos celestes, blancos y lilas que le otorgan profundidad y movimiento.  
+Una pieza decorativa ideal para acentuar espacios con luz natural.
+    `,
+    details: [
+      "Material: Arcilla blanca",
+      "Acabado: Esmalte vitrificado en tonos fríos",
+      "Medidas: 3 pulgadas de alto × 6.5 pulgadas de diámetro",
+    ],
+    slug: "jarron-cielo-lavanda",
+    mainImage: "/piezas/Pieza1_1.jpg",
+    gallery: [
+      "/piezas/Pieza1_1.jpg",
+      "/piezas/Pieza1_4.jpg",
+      "/piezas/Pieza1_3.jpg",
+      "/piezas/Pieza1_2.jpg",
+      "/piezas/Pieza1_6.jpg",
+    ],
+  },
+  {
     id: "2",
     title: "Taza 'Marina'",
     price: 200.0,
@@ -26,6 +51,114 @@ Su silueta 'globo' es ideal para sostener en las manos mientras disfrutas de cua
       "/piezas/Pieza2_5.jpg",
       "/piezas/Pieza2_7.jpg",
       "/piezas/Pieza2_8.jpg",
+    ],
+  },
+  {
+    id: "3",
+    title: "Taza 'Deep Night'",
+    price: 180.0,
+    stock: 0,
+    description: `
+Una pieza que aporta elegancia y un toque dramático a tus momentos de café. Esta taza cilíndrica ha sido modelada en torno, dejando sutiles ondas como textura en la superficie.
+
+Su esmalte exterior es de un azul profundo casi negro en algunas áreas, mientras que el interior sorprende con destellos turquesas y aqua. 
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte en tonos azul profundo/negro",
+      "Medidas: 4.5 pulgadas de alto × 13 pulgadas de diámetro",
+    ],
+    slug: "taza-deep-night",
+    mainImage: "/piezas/Pieza3_1.jpg",
+    gallery: [
+      "/piezas/Pieza3_1.jpg",
+      "/piezas/Pieza3_3.jpg",
+      "/piezas/Pieza3_4.jpg",
+      "/piezas/Pieza3_5.jpg",
+      "/piezas/Pieza3_7.jpg",
+      "/piezas/Pieza3_8.jpg",
+      "/piezas/Pieza3_09.jpg",
+      "/piezas/Pieza3_010.jpg",
+    ],
+  },
+  {
+    id: "4",
+    title: "Taza 'Speckled Snow'",
+    price: 170.0,
+    stock: 0,
+    description: `
+Una pieza compacta y robusta, ideal para un morning coffee. Modelada a mano con técnica de pellizco, su forma redondeada rústica y su asa gruesa la hacen muy cómoda de sostener. 
+
+Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla oscura, dejando la base expuesta para un hermoso contraste.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con manchas azules.",
+      "Medidas: 3 pulgadas de alto × 3.5 pulgadas de diámetro",
+    ],
+    slug: "taza-speckled-snow",
+    mainImage: "/piezas/Pieza4_1.jpg",
+    gallery: [
+      "/piezas/Pieza4_1.jpg",
+      "/piezas/Pieza4_2.jpg",
+      "/piezas/Pieza4_3.jpg",
+      "/piezas/Pieza4_4.jpg",
+      "/piezas/Pieza4_5.jpg",
+      "/piezas/Pieza4_6.jpg",
+      "/piezas/Pieza4_7.jpg",
+      "/piezas/Pieza4_8.jpg",
+      "/piezas/Pieza4_9.jpg",
+    ],
+  },
+  {
+    id: "5",
+    title: "'Winter' Seashell",
+    price: 230.0,
+    stock: 0,
+    description: `
+Una pieza decorativa modelada a mano, inspirada en las formas naturales del espiral de las conchas marinas.
+
+Su esmalte mezcla blancos cremosos y azules leves con el tono cálido de la arcilla roja, dándole una apariencia de tesoro antiguo. 
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco crema con tonos azules.",
+      "Uso: Decorativo",
+      "Medidas: 10 pulgadas de largo",
+    ],
+    slug: "winter-seashell",
+    mainImage: "/piezas/Pieza7_1.jpg",
+    gallery: [
+      "/piezas/Pieza7_1.jpg",
+      "/piezas/Pieza7_2.jpg",
+      "/piezas/Pieza7_3.jpg",
+      "/piezas/Pieza7_4.jpg",
+    ],
+  },
+
+  {
+    id: "6",
+    title: "Dúo de Trinket Dishes 'Winter'",
+    price: 120.0,
+    stock: 0,
+    description: `
+Un encantador par de platitos funcionales, perfectos para organizar anillos, aretes, u otros.
+
+Modelados en torno, presentan un esmalte en tonos celestes y blancos con un borde sutilmente oscuro.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con tonos azules.",
+      "Uso: Trinket dishes (para joyas y objetos pequeños)",
+      "Medidas: 4.7 pulgadas de diámetro",
+      "Venta: Se venden en Set de 2.",
+    ],
+    slug: "duo-trinket-dishes-winter",
+    mainImage: "/piezas/Pieza6_1.jpg",
+    gallery: [
+      "/piezas/Pieza6_1.jpg",
+      "/piezas/Pieza6_2.jpg",
+      "/piezas/Pieza6_3.jpg",
     ],
   },
   {
@@ -56,7 +189,6 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
       "/piezas/Pieza5_6.jpg",
     ],
   },
-
   {
     id: "8",
     title: "Taza 'Gold Breeze'",
@@ -239,7 +371,31 @@ Parejita de tazas de cerámica con una silueta redondeada y baja, con estilo taz
       "/piezas/Pieza14_9.jpg",
     ],
   },
+  {
+    id: "15",
+    title: "Azucarera 'Winter Shore' 2",
+    price: 220,
+    stock: 0,
+    description: `
+Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor con forma leve de globo ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
 
+El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando olas frías rompiendo en la orilla. 
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con tonos azules y óxido.",
+      "Uso: Azucarera, salero, o para guardar té por ejemplo.",
+      "Medidas: 5 pulgadas de alto × 4 pulgadas de diámetro",
+    ],
+    slug: "azucarera-winter-shore2",
+    mainImage: "/piezas/Pieza15_1.jpg",
+    gallery: [
+      "/piezas/Pieza15_1.jpg",
+      "/piezas/Pieza15_2.jpg",
+      "/piezas/Pieza15_3.jpg",
+      "/piezas/Pieza15_4.jpg",
+    ],
+  },
   {
     id: "16",
     title: "Azucarera 'Winter Shore' 3",
@@ -265,7 +421,35 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
       "/piezas/Pieza16_4.jpg",
     ],
   },
+  {
+    id: "17",
+    title: "Taza 'Deep Sea Waves' 2",
+    price: 200.0,
+    stock: 0,
+    description: `
+Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
 
+Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
+      "Medidas: 4 pulgadas de alto × 3.5 pulgadas de diámetro",
+    ],
+    slug: "taza-deep-sea-waves-2",
+    mainImage: "/piezas/Pieza17_1.jpg",
+    gallery: [
+      "/piezas/Pieza17_1.jpg",
+      "/piezas/Pieza17_2.jpg",
+      "/piezas/Pieza17_3.jpg",
+      "/piezas/Pieza17_4.jpg",
+      "/piezas/Pieza17_5.jpg",
+      "/piezas/Pieza17_6.jpg",
+      "/piezas/Pieza17_7.jpg",
+      "/piezas/Pieza17_8.jpg",
+      "/piezas/Pieza17_9.jpg",
+    ],
+  },
   {
     id: "18",
     title: "Plato de cena 'Snow'",
@@ -319,193 +503,6 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
       "/piezas/Pieza19_4.jpg",
       "/piezas/Pieza19_5.jpg",
       "/piezas/Pieza19_6.jpg",
-    ],
-  },
-  {
-    id: "1",
-    title: "Jarrón 'Cielo Lavanda'",
-    price: 190.0,
-    stock: 0,
-    description: `
-Jarrón modelado de arcilla blanca trabajado en torno.  
-Esmalte con sutiles transiciones en tonos celestes, blancos y lilas que le otorgan profundidad y movimiento.  
-Una pieza decorativa ideal para acentuar espacios con luz natural.
-    `,
-    details: [
-      "Material: Arcilla blanca",
-      "Acabado: Esmalte vitrificado en tonos fríos",
-      "Medidas: 3 pulgadas de alto × 6.5 pulgadas de diámetro",
-    ],
-    slug: "jarron-cielo-lavanda",
-    mainImage: "/piezas/Pieza1_1.jpg",
-    gallery: [
-      "/piezas/Pieza1_1.jpg",
-      "/piezas/Pieza1_4.jpg",
-      "/piezas/Pieza1_3.jpg",
-      "/piezas/Pieza1_2.jpg",
-      "/piezas/Pieza1_6.jpg",
-    ],
-  },
-  {
-    id: "3",
-    title: "Taza 'Deep Night'",
-    price: 180.0,
-    stock: 0,
-    description: `
-Una pieza que aporta elegancia y un toque dramático a tus momentos de café. Esta taza cilíndrica ha sido modelada en torno, dejando sutiles ondas como textura en la superficie.
-
-Su esmalte exterior es de un azul profundo casi negro en algunas áreas, mientras que el interior sorprende con destellos turquesas y aqua. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte en tonos azul profundo/negro",
-      "Medidas: 4.5 pulgadas de alto × 13 pulgadas de diámetro",
-    ],
-    slug: "taza-deep-night",
-    mainImage: "/piezas/Pieza3_1.jpg",
-    gallery: [
-      "/piezas/Pieza3_1.jpg",
-      "/piezas/Pieza3_3.jpg",
-      "/piezas/Pieza3_4.jpg",
-      "/piezas/Pieza3_5.jpg",
-      "/piezas/Pieza3_7.jpg",
-      "/piezas/Pieza3_8.jpg",
-      "/piezas/Pieza3_09.jpg",
-      "/piezas/Pieza3_010.jpg",
-    ],
-  },
-  {
-    id: "4",
-    title: "Taza 'Speckled Snow'",
-    price: 170.0,
-    stock: 0,
-    description: `
-Una pieza compacta y robusta, ideal para un morning coffee. Modelada a mano con técnica de pellizco, su forma redondeada rústica y su asa gruesa la hacen muy cómoda de sostener. 
-
-Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla oscura, dejando la base expuesta para un hermoso contraste.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con manchas azules.",
-      "Medidas: 3 pulgadas de alto × 3.5 pulgadas de diámetro",
-    ],
-    slug: "taza-speckled-snow",
-    mainImage: "/piezas/Pieza4_1.jpg",
-    gallery: [
-      "/piezas/Pieza4_1.jpg",
-      "/piezas/Pieza4_2.jpg",
-      "/piezas/Pieza4_3.jpg",
-      "/piezas/Pieza4_4.jpg",
-      "/piezas/Pieza4_5.jpg",
-      "/piezas/Pieza4_6.jpg",
-      "/piezas/Pieza4_7.jpg",
-      "/piezas/Pieza4_8.jpg",
-      "/piezas/Pieza4_9.jpg",
-    ],
-  },
-  {
-    id: "5",
-    title: "'Winter' Seashell",
-    price: 230.0,
-    stock: 0,
-    description: `
-Una pieza decorativa modelada a mano, inspirada en las formas naturales del espiral de las conchas marinas.
-
-Su esmalte mezcla blancos cremosos y azules leves con el tono cálido de la arcilla roja, dándole una apariencia de tesoro antiguo. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco crema con tonos azules.",
-      "Uso: Decorativo",
-      "Medidas: 10 pulgadas de largo",
-    ],
-    slug: "winter-seashell",
-    mainImage: "/piezas/Pieza7_1.jpg",
-    gallery: [
-      "/piezas/Pieza7_1.jpg",
-      "/piezas/Pieza7_2.jpg",
-      "/piezas/Pieza7_3.jpg",
-      "/piezas/Pieza7_4.jpg",
-    ],
-  },
-
-  {
-    id: "6",
-    title: "Dúo de Trinket Dishes 'Winter'",
-    price: 120.0,
-    stock: 0,
-    description: `
-Un encantador par de platitos funcionales, perfectos para organizar anillos, aretes, u otros.
-
-Modelados en torno, presentan un esmalte en tonos celestes y blancos con un borde sutilmente oscuro.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules.",
-      "Uso: Trinket dishes (para joyas y objetos pequeños)",
-      "Medidas: 4.7 pulgadas de diámetro",
-      "Venta: Se venden en Set de 2.",
-    ],
-    slug: "duo-trinket-dishes-winter",
-    mainImage: "/piezas/Pieza6_1.jpg",
-    gallery: [
-      "/piezas/Pieza6_1.jpg",
-      "/piezas/Pieza6_2.jpg",
-      "/piezas/Pieza6_3.jpg",
-    ],
-  },
-  {
-    id: "15",
-    title: "Azucarera 'Winter Shore' 2",
-    price: 220,
-    stock: 0,
-    description: `
-Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor con forma leve de globo ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
-
-El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando olas frías rompiendo en la orilla. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules y óxido.",
-      "Uso: Azucarera, salero, o para guardar té por ejemplo.",
-      "Medidas: 5 pulgadas de alto × 4 pulgadas de diámetro",
-    ],
-    slug: "azucarera-winter-shore2",
-    mainImage: "/piezas/Pieza15_1.jpg",
-    gallery: [
-      "/piezas/Pieza15_1.jpg",
-      "/piezas/Pieza15_2.jpg",
-      "/piezas/Pieza15_3.jpg",
-      "/piezas/Pieza15_4.jpg",
-    ],
-  },
-  {
-    id: "17",
-    title: "Taza 'Deep Sea Waves' 2",
-    price: 200.0,
-    stock: 0,
-    description: `
-Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
-
-Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
-      "Medidas: 4 pulgadas de alto × 3.5 pulgadas de diámetro",
-    ],
-    slug: "taza-deep-sea-waves-2",
-    mainImage: "/piezas/Pieza17_1.jpg",
-    gallery: [
-      "/piezas/Pieza17_1.jpg",
-      "/piezas/Pieza17_2.jpg",
-      "/piezas/Pieza17_3.jpg",
-      "/piezas/Pieza17_4.jpg",
-      "/piezas/Pieza17_5.jpg",
-      "/piezas/Pieza17_6.jpg",
-      "/piezas/Pieza17_7.jpg",
-      "/piezas/Pieza17_8.jpg",
-      "/piezas/Pieza17_9.jpg",
     ],
   },
 ];
