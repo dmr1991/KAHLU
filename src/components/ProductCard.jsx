@@ -3,10 +3,23 @@ import { Link } from "react-router-dom";
 import { Card, CardMedia, Typography, Box } from "@mui/material";
 
 function ProductCard({ product }) {
-  const formattedPrice = new Intl.NumberFormat("es-GT", {
+  /* const formattedPrice = new Intl.NumberFormat("es-GT", {
     style: "currency",
     currency: "GTQ",
-  }).format(product.price);
+  }).format(product.price); */ const formattedPrice = new Intl.NumberFormat(
+    "es-GT",
+    {
+      style: "currency",
+      currency: "GTQ",
+    }
+  );
+
+  const priceText =
+    product.price && typeof product.price === "object"
+      ? `${formattedPrice.format(product.price.from)} – ${formattedPrice.format(
+          product.price.to
+        )}`
+      : formattedPrice.format(product.price);
 
   const isOutOfStock = product.stock <= 0;
 
@@ -119,7 +132,7 @@ function ProductCard({ product }) {
               margin: 0,
             }}
           >
-            {formattedPrice}
+            {priceText}
           </Typography>
         </Box>
       </Card>

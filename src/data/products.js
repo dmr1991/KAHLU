@@ -162,7 +162,7 @@ El esmalte combina azules profundos y blancos suaves con manchas doradas y óxid
   {
     id: "12",
     title: "Taza 'Ballena'",
-    price: 250,
+    price: { from: 200, to: 250 },
     stock: 2,
     description: `
 Piezas de colección que fusionan arte y funcionalidad. Estas tazas han sido modeladas en torno y su asa a mano. Con forma redondeada y con un detalle escultural distintivo: el asa se fusiona con una aleta de ballena texturizada.
