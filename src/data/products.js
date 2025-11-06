@@ -230,10 +230,10 @@ Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida fa
     `,
     details: [
       "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules.",
-      "Uso: Trinket dishes (para joyas y objetos pequeños)",
+      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
+      ,
       "Medidas: 8.5 cm de alto × 9 cm de diámetro",
-      "Venta: Se venden en Set de 2.",
+      ,
     ],
     slug: "taza-deep-sea-waves",
     mainImage: "/piezas/Pieza9_1.jpg",
@@ -247,6 +247,7 @@ Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida fa
       "/piezas/Pieza9_7.jpg",
       "/piezas/Pieza9_8.jpg",
       "/piezas/Pieza9_9.jpg",
+      "/piezas/Pieza9_010.jpg",
     ],
   },
   {
@@ -400,6 +401,118 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
       "/piezas/Pieza15_2.jpg",
       "/piezas/Pieza15_3.jpg",
       "/piezas/Pieza15_4.jpg",
+    ],
+  },
+  {
+    id: "16",
+    title: "Azucarera 'Winter Shore' 3",
+    price: 200.0,
+    stock: 1,
+    description: `
+Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor cilíndrico ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
+
+El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando olas frías rompiendo en la orilla. 
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte fluido en capas de tonos fríos y cálidos",
+      "Uso: Azucarera, salero, o para guardar té por ejemplo.",
+      "Medidas: 8.5 cm de alto × 9 cm de diámetro",
+      "Capacidad: 280 ml",
+    ],
+    slug: "azucarera-winter-shore3",
+    mainImage: "/piezas/Pieza16_1.jpg",
+    gallery: [
+      "/piezas/Pieza16_1.jpg",
+      "/piezas/Pieza16_2.jpg",
+      "/piezas/Pieza16_3.jpg",
+      "/piezas/Pieza16_4.jpg",
+    ],
+  },
+  {
+    id: "17",
+    title: "Taza 'Deep Sea Waves' 2",
+    price: 200.0,
+    stock: 1,
+    description: `
+Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
+
+Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
+      ,
+      "Medidas: 8.5 cm de alto × 9 cm de diámetro",
+      ,
+    ],
+    slug: "taza-deep-sea-waves-2",
+    mainImage: "/piezas/Pieza17_1.jpg",
+    gallery: [
+      "/piezas/Pieza17_1.jpg",
+      "/piezas/Pieza17_2.jpg",
+      "/piezas/Pieza17_3.jpg",
+      "/piezas/Pieza17_4.jpg",
+      "/piezas/Pieza17_5.jpg",
+      "/piezas/Pieza17_6.jpg",
+      "/piezas/Pieza17_7.jpg",
+      "/piezas/Pieza17_8.jpg",
+      "/piezas/Pieza17_9.jpg",
+    ],
+  },
+  {
+    id: "18",
+    title: "Plato de cena 'Snow'",
+    price: 170,
+    stock: 5,
+    description: `
+Plato plano, ideal para servir comidas principales, postres o aperitivos con carácter. Modelado a mano con técnica de placas y pellizco, presenta una forma sencilla, rústica y atemporal con un sutil borde levantado.
+
+Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y oscuros. Se percibe en los bordes la arcilla roja bajo un esmalte translúcido.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con tonos azules claros y oscuros.",
+      "Medidas: 8.5 cm de alto × 9 cm de diámetro",
+    ],
+    slug: "plato-cena-snow",
+    mainImage: "/piezas/Pieza18_1.jpg",
+    gallery: [
+      "/piezas/Pieza18_1.jpg",
+      "/piezas/Pieza18_2.jpg",
+      "/piezas/Pieza18_3.jpg",
+      "/piezas/Pieza18_4.jpg",
+      "/piezas/Pieza18_5.jpg",
+      "/piezas/Pieza18_6.jpg",
+      "/piezas/Pieza18_7.jpg",
+      "/piezas/Pieza18_8.jpg",
+      "/piezas/Pieza18_9.jpg",
+    ],
+  },
+  {
+    id: "19",
+    title: "Bowl de cereal 'Snow'",
+    price: 120,
+    stock: 2,
+    description: `
+Bowl profundo, ideal para servir cereales, yogurt, berries, sopas o guisos. Modelado a mano con torno, presenta una forma sencilla y rústica.
+
+Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y oscuros. Se percibe en en ciertas areas la arcilla roja bajo un esmalte translúcido.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con tonos azules claros y oscuros.",
+      "Medidas: 8.5 cm de alto × 9 cm de diámetro",
+    ],
+    slug: "bowl-cereal-snow",
+    mainImage: "/piezas/Pieza19_1.jpg",
+    gallery: [
+      "/piezas/Pieza19_1.jpg",
+      "/piezas/Pieza19_2.jpg",
+      "/piezas/Pieza19_3.jpg",
+      "/piezas/Pieza19_4.jpg",
+      "/piezas/Pieza19_5.jpg",
+      "/piezas/Pieza19_6.jpg",
     ],
   },
 ];
