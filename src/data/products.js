@@ -5,7 +5,7 @@ const products = [
     id: "1",
     title: "Jarrón 'Cielo Lavanda'",
     price: 190.0,
-    stock: 1,
+    stock: 0,
     description: `
 Jarrón modelado de arcilla blanca trabajado en torno.  
 Esmalte con sutiles transiciones en tonos celestes, blancos y lilas que le otorgan profundidad y movimiento.  
@@ -114,7 +114,7 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
     id: "5",
     title: "'Winter' Seashell",
     price: 230.0,
-    stock: 1,
+    stock: 0,
     description: `
 Una pieza decorativa modelada a mano, inspirada en las formas naturales del espiral de las conchas marinas.
 
@@ -375,7 +375,7 @@ Parejita de tazas de cerámica con una silueta redondeada y baja, con estilo taz
     id: "15",
     title: "Azucarera 'Winter Shore' 2",
     price: 220,
-    stock: 1,
+    stock: 0,
     description: `
 Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor con forma leve de globo ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
 
@@ -425,7 +425,7 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
     id: "17",
     title: "Taza 'Deep Sea Waves' 2",
     price: 200.0,
-    stock: 1,
+    stock: 0,
     description: `
 Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
 
