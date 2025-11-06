@@ -57,7 +57,7 @@ Su silueta 'globo' es ideal para sostener en las manos mientras disfrutas de cua
     id: "3",
     title: "Taza 'Deep Night'",
     price: 180.0,
-    stock: 1,
+    stock: 0,
     description: `
 Una pieza que aporta elegancia y un toque dramático a tus momentos de café. Esta taza cilíndrica ha sido modelada en torno, dejando sutiles ondas como textura en la superficie.
 
