@@ -66,7 +66,7 @@ function ProductDetail() {
         boxSizing: "border-box",
       }}
     >
-      {/* Carrusel de imágenes */}
+      {/* 🖼️ Carrusel de imágenes */}
       <Box
         flex={{ xs: "1", md: "1.5" }}
         width="100%"
@@ -100,7 +100,6 @@ function ProductDetail() {
                   height: { xs: 320, sm: 380, md: 600 },
                   objectFit: "contain",
                   backgroundColor: "#f8f8f8",
-                  borderRadius: 0,
                 }}
               />
             </SwiperSlide>
@@ -108,70 +107,129 @@ function ProductDetail() {
         </Swiper>
       </Box>
 
-      {/* Información del producto */}
+      {/* 📋 Información del producto */}
       <Box
         flex={{ xs: "1", md: "1" }}
         width="100%"
         textAlign={{ xs: "center", md: "left" }}
       >
+        {/* 🔠 Título */}
         <Typography
           variant="h4"
           sx={{
             fontFamily: theme.typography.fontFamily,
             color: theme.palette.terracota.main,
             mb: 2,
+            fontWeight: 600,
           }}
         >
           {product.title}
         </Typography>
 
+        {/* 💰 Precio */}
         <Typography
           variant="h6"
           sx={{
             mb: 2,
+            color: theme.palette.aguaSuave.main,
+            fontWeight: 700,
           }}
         >
           {formattedPrice}
         </Typography>
 
+        {/* 📝 Descripción */}
         <Typography
           variant="body1"
           sx={{
             mb: 3,
+            fontFamily: "'Raleway', sans-serif",
+            fontSize: "1.05rem",
+            lineHeight: 1.6,
+            color: "#444",
+            whiteSpace: "pre-line",
           }}
         >
           {product.description}
         </Typography>
 
-        <Typography
-          variant="body2"
+        {/* 🔹 Bullets de detalles */}
+        {product.details && product.details.length > 0 && (
+          <Box
+            component="ul"
+            sx={{
+              pl: 3,
+              mb: 4,
+              color: "#444",
+              fontFamily: "'Raleway', sans-serif",
+              fontSize: "1rem",
+              textAlign: { xs: "left", md: "left" },
+              "& li": { marginBottom: "6px" },
+            }}
+          >
+            {product.details.map((detail, i) => (
+              <li key={i}>{detail}</li>
+            ))}
+          </Box>
+        )}
+
+        {/* ✅ Stock */}
+        <Box
           sx={{
-            color:
-              product.stock > 0
-                ? theme.palette.verdeOliva.main
-                : "text.secondary",
-            mb: 3,
+            display: "flex",
+            justifyContent: { xs: "center", md: "flex-start" },
+            mb: 4,
           }}
         >
-          {stockMessage}
-        </Typography>
+          <Typography
+            variant="body2"
+            sx={{
+              px: 2,
+              py: 1,
+              borderRadius: "6px",
+              fontWeight: 600,
+              backgroundColor:
+                product.stock > 0
+                  ? "rgba(138, 141, 95, 0.15)" // verde olivo claro
+                  : "rgba(162, 103, 76, 0.15)", // terracota claro
+              color:
+                product.stock > 0
+                  ? theme.palette.verdeOliva.main
+                  : theme.palette.terracota.main,
+            }}
+          >
+            {stockMessage}
+          </Typography>
+        </Box>
 
-        <CustomButton onClick={() => navigate("/contact")}>
-          Consultar disponibilidad
-        </CustomButton>
+        {/* 🔘 Botón separado */}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: { xs: "center", md: "flex-start" },
+          }}
+        >
+          <CustomButton onClick={() => navigate("/contact")}>
+            Consultar disponibilidad
+          </CustomButton>
+        </Box>
       </Box>
 
-      {/* Estilos adicionales del Swiper */}
+      {/* 🎨 Estilos personalizados Swiper */}
       <style>
         {`
           .swiper-button-next svg,
           .swiper-button-prev svg {
-          filter: drop-shadow(0 0 1px white) drop-shadow(0 0 3px white) drop-shadow(0 0 6px rgba(255,255,255,0.9));
+            filter: drop-shadow(0 0 1px white)
+              drop-shadow(0 0 3px white)
+              drop-shadow(0 0 6px rgba(255,255,255,0.9));
           }
 
           .swiper-button-next:hover svg,
           .swiper-button-prev:hover svg {
-              filter: drop-shadow(0 0 2px white) drop-shadow(0 0 6px white) drop-shadow(0 0 12px rgba(255,255,255,1));
+            filter: drop-shadow(0 0 2px white)
+              drop-shadow(0 0 6px white)
+              drop-shadow(0 0 12px rgba(255,255,255,1));
             transform: scale(1.2);
             transition: all 0.2s ease;
           }
