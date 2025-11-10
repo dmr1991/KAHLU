@@ -58,31 +58,6 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
   },
 
   {
-    id: "8",
-    title: "Taza 'Gold Breeze'",
-    price: 180.0,
-    stock: 1,
-    description: `
-Esta taza, modelada a en torno con una silueta baja y ancha, está diseñada para ser cómoda y estable. Su esmalte tiene una mezcla de azules suaves y blancos, con sutiles puntos dorados y óxido que le dan una textura visual única y cálida.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte brillante en tonos azul/blanco con acentos óxido.",
-      "Medidas: 3 pulgadas de alto × 3.5 pulgadas de diámetro",
-    ],
-    slug: "taza-gold-breeze",
-    mainImage: "/piezas/Pieza8_1.jpg",
-    gallery: [
-      "/piezas/Pieza8_1.jpg",
-      "/piezas/Pieza8_2.jpg",
-      "/piezas/Pieza8_3.jpg",
-      "/piezas/Pieza8_4.jpg",
-      "/piezas/Pieza8_5.jpg",
-      "/piezas/Pieza8_6.jpg",
-      "/piezas/Pieza8_7.jpg",
-    ],
-  },
-  {
     id: "9",
     title: "Taza 'Deep Sea Waves'",
     price: 200.0,
@@ -159,35 +134,7 @@ El esmalte combina azules profundos y blancos suaves con manchas doradas y óxid
     mainImage: "/piezas/Pieza11_1.jpg",
     gallery: ["/piezas/Pieza11_1.jpg", "/piezas/Pieza11_2.jpg"],
   },
-  {
-    id: "12",
-    title: "Taza 'Ballena'",
-    price: { from: 200, to: 250 },
-    stock: 2,
-    description: `
-Piezas de colección que fusionan arte y funcionalidad. Estas tazas han sido modeladas en torno y su asa a mano. Con forma redondeada y con un detalle escultural distintivo: el asa se fusiona con una aleta de ballena texturizada.
-Dos piezas disponibles en distintas capacidades y colores. La grande mas oscura con tonos azules y la pequeña en tonos aqua y turquesa.
-Los estilos de estos esmaltes crean un efecto acuático que combina azules profundos y blancos espumosos, reforzando la inspiración marina.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules.",
-      "Medidas: 2.5 pulgadas de alto × 3 pulgadas de diámetro la pequeña, 2.5 pulgadas de alto × 3.7 pulgadas de diámetro la grande.",
-      "Venta: Se venden en Set de 2, o por separado. Consultar precio individual o del set.",
-    ],
-    slug: "taza-ballena",
-    mainImage: "/piezas/Pieza12_1.jpg",
-    gallery: [
-      "/piezas/Pieza12_1.jpg",
-      "/piezas/Pieza12_2.jpg",
-      "/piezas/Pieza12_3.jpg",
-      "/piezas/Pieza12_4.jpg",
-      "/piezas/Pieza12_5.jpg",
-      "/piezas/Pieza12_6.jpg",
-      "/piezas/Pieza12_7.jpg",
-      "/piezas/Pieza12_8.jpg",
-    ],
-  },
+
   {
     id: "13",
     title: "Salserito 'Tierra y Agua'",
@@ -506,6 +453,60 @@ Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida fa
       "/piezas/Pieza17_7.jpg",
       "/piezas/Pieza17_8.jpg",
       "/piezas/Pieza17_9.jpg",
+    ],
+  },
+  {
+    id: "8",
+    title: "Taza 'Gold Breeze'",
+    price: 180.0,
+    stock: 0,
+    description: `
+Esta taza, modelada a en torno con una silueta baja y ancha, está diseñada para ser cómoda y estable. Su esmalte tiene una mezcla de azules suaves y blancos, con sutiles puntos dorados y óxido que le dan una textura visual única y cálida.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte brillante en tonos azul/blanco con acentos óxido.",
+      "Medidas: 3 pulgadas de alto × 3.5 pulgadas de diámetro",
+    ],
+    slug: "taza-gold-breeze",
+    mainImage: "/piezas/Pieza8_1.jpg",
+    gallery: [
+      "/piezas/Pieza8_1.jpg",
+      "/piezas/Pieza8_2.jpg",
+      "/piezas/Pieza8_3.jpg",
+      "/piezas/Pieza8_4.jpg",
+      "/piezas/Pieza8_5.jpg",
+      "/piezas/Pieza8_6.jpg",
+      "/piezas/Pieza8_7.jpg",
+    ],
+  },
+  {
+    id: "12",
+    title: "Taza 'Ballena'",
+    price: { from: 200, to: 250 },
+    stock: 0,
+    description: `
+Piezas de colección que fusionan arte y funcionalidad. Estas tazas han sido modeladas en torno y su asa a mano. Con forma redondeada y con un detalle escultural distintivo: el asa se fusiona con una aleta de ballena texturizada.
+Dos piezas disponibles en distintas capacidades y colores. La grande mas oscura con tonos azules y la pequeña en tonos aqua y turquesa.
+Los estilos de estos esmaltes crean un efecto acuático que combina azules profundos y blancos espumosos, reforzando la inspiración marina.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con tonos azules.",
+      "Medidas: 2.5 pulgadas de alto × 3 pulgadas de diámetro la pequeña, 2.5 pulgadas de alto × 3.7 pulgadas de diámetro la grande.",
+      "Venta: Se venden en Set de 2, o por separado. Consultar precio individual o del set.",
+    ],
+    slug: "taza-ballena",
+    mainImage: "/piezas/Pieza12_1.jpg",
+    gallery: [
+      "/piezas/Pieza12_1.jpg",
+      "/piezas/Pieza12_2.jpg",
+      "/piezas/Pieza12_3.jpg",
+      "/piezas/Pieza12_4.jpg",
+      "/piezas/Pieza12_5.jpg",
+      "/piezas/Pieza12_6.jpg",
+      "/piezas/Pieza12_7.jpg",
+      "/piezas/Pieza12_8.jpg",
     ],
   },
 ];
