@@ -58,37 +58,6 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
   },
 
   {
-    id: "9",
-    title: "Taza 'Deep Sea Waves'",
-    price: 200.0,
-    stock: 1,
-    description: `
-Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
-
-Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
-      "Medidas: 3.8 pulgadas de alto × 3.6 pulgadas de diámetro",
-      ,
-    ],
-    slug: "taza-deep-sea-waves",
-    mainImage: "/piezas/Pieza9_1.jpg",
-    gallery: [
-      "/piezas/Pieza9_1.jpg",
-      "/piezas/Pieza9_2.jpg",
-      "/piezas/Pieza9_3.jpg",
-      "/piezas/Pieza9_4.jpg",
-      "/piezas/Pieza9_5.jpg",
-      "/piezas/Pieza9_6.jpg",
-      "/piezas/Pieza9_7.jpg",
-      "/piezas/Pieza9_8.jpg",
-      "/piezas/Pieza9_9.jpg",
-      "/piezas/Pieza9_010.jpg",
-    ],
-  },
-  {
     id: "10",
     title: "Azucarera 'Winter Shore'",
     price: 200.0,
@@ -507,6 +476,37 @@ Los estilos de estos esmaltes crean un efecto acuático que combina azules profu
       "/piezas/Pieza12_6.jpg",
       "/piezas/Pieza12_7.jpg",
       "/piezas/Pieza12_8.jpg",
+    ],
+  },
+  {
+    id: "9",
+    title: "Taza 'Deep Sea Waves'",
+    price: 200.0,
+    stock: 0,
+    description: `
+Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
+
+Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
+      "Medidas: 3.8 pulgadas de alto × 3.6 pulgadas de diámetro",
+      ,
+    ],
+    slug: "taza-deep-sea-waves",
+    mainImage: "/piezas/Pieza9_1.jpg",
+    gallery: [
+      "/piezas/Pieza9_1.jpg",
+      "/piezas/Pieza9_2.jpg",
+      "/piezas/Pieza9_3.jpg",
+      "/piezas/Pieza9_4.jpg",
+      "/piezas/Pieza9_5.jpg",
+      "/piezas/Pieza9_6.jpg",
+      "/piezas/Pieza9_7.jpg",
+      "/piezas/Pieza9_8.jpg",
+      "/piezas/Pieza9_9.jpg",
+      "/piezas/Pieza9_010.jpg",
     ],
   },
 ];
