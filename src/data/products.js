@@ -2,33 +2,6 @@ import { Snowboarding } from "@mui/icons-material";
 
 const products = [
   {
-    id: "2",
-    title: "Taza 'Marina'",
-    price: 200.0,
-    stock: 1,
-    description: `
-Una pieza de cerámica única, modelada con una forma redondeada. Presenta un diseño que resalta el contraste donde la base de arcilla roja oscura se encuentra con un esmalte claro de tonos azul y turquesa. El acabado de esmalte cuenta con bastante movimiento.
-
-Su silueta 'globo' es ideal para sostener en las manos mientras disfrutas de cualquier bebida caliente.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte azul y turquesa, con arcilla expuesta en la base",
-      "Medidas: 2.6 pulgadas de alto × 4 pulgadas de diámetro",
-    ],
-    slug: "taza-aurora",
-    mainImage: "/piezas/Pieza2_1.jpg",
-    gallery: [
-      "/piezas/Pieza2_1.jpg",
-      "/piezas/Pieza2_4.jpg",
-      "/piezas/Pieza2_3.jpg",
-      "/piezas/Pieza2_2.jpg",
-      "/piezas/Pieza2_5.jpg",
-      "/piezas/Pieza2_7.jpg",
-      "/piezas/Pieza2_8.jpg",
-    ],
-  },
-  {
     id: "7",
     title: "Salsero 'Tierra y Agua'",
     price: 150.0,
@@ -128,33 +101,6 @@ Su esmalte es una mezcla de tonos aqua, azul y potentes blanco, creando. Es idea
       "/piezas/Pieza13_4.jpg",
     ],
   },
-  {
-    id: "14",
-    title: "Duo de tazas 'Frost'",
-    price: 230.0,
-    stock: 2,
-    description: `
-Parejita de tazas de cerámica con una silueta redondeada y baja, con estilo taza de capuccino. Modeladas a mano y presentan un esmalte de base blanco frío con puntos de azul pálido.`,
-    details: [
-      "Material: Arcilla roja",
-      "Venta: En stock hay 2 parejas, solo se venden en dúo.",
-      "Acabado: Esmalte con tonos blancos y azules.",
-      "Medidas: 2.5 pulgadas de alto × 3 pulgadas de diámetro",
-    ],
-    slug: "duo-tazas-frost",
-    mainImage: "/piezas/Pieza14_1.jpg",
-    gallery: [
-      "/piezas/Pieza14_1.jpg",
-      "/piezas/Pieza14_2.jpg",
-      "/piezas/Pieza14_3.jpg",
-      "/piezas/Pieza14_4.jpg",
-      "/piezas/Pieza14_5.jpg",
-      "/piezas/Pieza14_6.jpg",
-      "/piezas/Pieza14_7.jpg",
-      "/piezas/Pieza14_8.jpg",
-      "/piezas/Pieza14_9.jpg",
-    ],
-  },
 
   {
     id: "16",
@@ -186,7 +132,7 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
     id: "18",
     title: "Plato de cena 'Snow'",
     price: 170,
-    stock: 5,
+    stock: 4,
     description: `
 Plato plano, ideal para servir comidas principales, postres o aperitivos con carácter. Modelado a mano con técnica de placas y pellizco, presenta una forma sencilla, rústica y atemporal con un sutil borde levantado.
 
@@ -215,7 +161,7 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
     id: "19",
     title: "Bowl de cereal 'Snow'",
     price: 120,
-    stock: 2,
+    stock: 1,
     description: `
 Bowl profundo, ideal para servir cereales, yogurt, berries, sopas o guisos. Modelado a mano con torno, presenta una forma sencilla y rústica.
 
@@ -227,13 +173,9 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
       "Medidas: 2.5 pulgadas de alto × 5.5 pulgadas de diámetro",
     ],
     slug: "bowl-cereal-snow",
-    mainImage: "/piezas/Pieza19_1.jpg",
+    mainImage: "/piezas/Pieza19_4.jpg",
     gallery: [
-      "/piezas/Pieza19_1.jpg",
-      "/piezas/Pieza19_2.jpg",
-      "/piezas/Pieza19_3.jpg",
       "/piezas/Pieza19_4.jpg",
-      "/piezas/Pieza19_5.jpg",
       "/piezas/Pieza19_6.jpg",
     ],
   },
@@ -291,6 +233,33 @@ Su esmalte exterior es de un azul profundo casi negro en algunas áreas, mientra
     ],
   },
   {
+    id: "2",
+    title: "Taza 'Marina'",
+    price: 200.0,
+    stock: 0,
+    description: `
+Una pieza de cerámica única, modelada con una forma redondeada. Presenta un diseño que resalta el contraste donde la base de arcilla roja oscura se encuentra con un esmalte claro de tonos azul y turquesa. El acabado de esmalte cuenta con bastante movimiento.
+
+Su silueta 'globo' es ideal para sostener en las manos mientras disfrutas de cualquier bebida caliente.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte azul y turquesa, con arcilla expuesta en la base",
+      "Medidas: 2.6 pulgadas de alto × 4 pulgadas de diámetro",
+    ],
+    slug: "taza-marina",
+    mainImage: "/piezas/Pieza2_1.jpg",
+    gallery: [
+      "/piezas/Pieza2_1.jpg",
+      "/piezas/Pieza2_4.jpg",
+      "/piezas/Pieza2_3.jpg",
+      "/piezas/Pieza2_2.jpg",
+      "/piezas/Pieza2_5.jpg",
+      "/piezas/Pieza2_7.jpg",
+      "/piezas/Pieza2_8.jpg",
+    ],
+  },
+  {
     id: "4",
     title: "Taza 'Speckled Snow'",
     price: 170.0,
@@ -317,6 +286,33 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
       "/piezas/Pieza4_7.jpg",
       "/piezas/Pieza4_8.jpg",
       "/piezas/Pieza4_9.jpg",
+    ],
+  },
+  {
+    id: "14",
+    title: "Duo de tazas 'Frost'",
+    price: 230.0,
+    stock: 0,
+    description: `
+Parejita de tazas de cerámica con una silueta redondeada y baja, con estilo taza de capuccino. Modeladas a mano y presentan un esmalte de base blanco frío con puntos de azul pálido.`,
+    details: [
+      "Material: Arcilla roja",
+      "Venta: En stock hay 2 parejas, solo se venden en dúo.",
+      "Acabado: Esmalte con tonos blancos y azules.",
+      "Medidas: 2.5 pulgadas de alto × 3 pulgadas de diámetro",
+    ],
+    slug: "duo-tazas-frost",
+    mainImage: "/piezas/Pieza14_1.jpg",
+    gallery: [
+      "/piezas/Pieza14_1.jpg",
+      "/piezas/Pieza14_2.jpg",
+      "/piezas/Pieza14_3.jpg",
+      "/piezas/Pieza14_4.jpg",
+      "/piezas/Pieza14_5.jpg",
+      "/piezas/Pieza14_6.jpg",
+      "/piezas/Pieza14_7.jpg",
+      "/piezas/Pieza14_8.jpg",
+      "/piezas/Pieza14_9.jpg",
     ],
   },
   {
