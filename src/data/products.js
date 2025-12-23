@@ -1,10 +1,217 @@
-import { Snowboarding } from "@mui/icons-material";
-
 const products = [
+  // ================= NUEVOS PLACEHOLDER =================
+  {
+    id: "20",
+    title: "'Space' Mug (Sin Asa)",
+    price: {
+    individual: 200,
+    pareja: 370
+  },
+    stock: 2,
+    description: `Taza modelada a mano en torno, con un diseño minimalista sin asa estilo tumbler. Su esmalte reactivo en tonos galácticos crea transiciones únicas entre púrpuras profundos y verdes nebulosa. Una pieza de carácter moderno, ideal para transformar el ritual de tus bebidas frías o calientes.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte negro con tonos verdes, azules y morados.",
+      "Venta: Se vende por unidad o la pareja mientras haya existencias.",
+      "Capacidad: 450ml",
+      ,
+    ],
+    slug: "space-mug-",
+    mainImage: "/piezas/Dec2025/Kahlu_ID20_00008.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID20_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID20_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID20_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID20_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID20_00005.jpg",
+      "/piezas/Dec2025/Kahlu_ID20_00006.jpg",
+      "/piezas/Dec2025/Kahlu_ID20_00007.jpg",
+    ],
+  },
+  {
+    id: "21",
+    title: "'Cream Burgundy' Coffee Cup",
+    price: 170,
+    stock: 1,
+    description: `Una pieza diseñada para los amantes del detalle. Esta taza de café, modelada a mano sobre arcilla clara en tono vainilla, presenta una silueta redondeada, pensada para disfrutar de un cappuccino perfecto.
+
+El esmalte combina la suavidad del color crema con la profundidad de un tono burgundy en la base, logrando un contraste sofisticado y clásico. Una pieza que aporta calidez y elegancia a cualquier ritual de mañana.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color crema con speckles cafés y color burgundy en la base.",
+      "Capacidad: 225ml",
+    ],
+    slug: "cream-burgundy-coffee-cup",
+    mainImage: "/piezas/Dec2025/Kahlu_ID21_00003.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID21_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID21_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID21_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID21_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID21_00005.jpg",
+    ],
+  },
+  {
+    id: "22",
+    title: "'Seaside' Mug (Sin Asa)",
+    price: 185,
+    stock: 1,
+    description: `Taza modelada en arcilla tono vainilla, con un diseño minimalista sin asa tipo tumbler. Su acabado en esmalte celeste se funde suavemente con la base color arena, evocando la calma de un paisaje costero. Una pieza versátil e ideal tanto para bebidas frías como calientes.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color turquesa por dentro. Por fuera el esmalte de base es color arena y se sobrelapa con el turquesa que predomina en la parte superior.",
+      "Capacidad: 350ml",
+    ],
+    slug: "seaside-mug",
+    mainImage: "/piezas/Dec2025/Kahlu_ID22_00003.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID22_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID22_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID22_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID22_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID22_00005.jpg",
+    ],
+  },
+  {
+    id: "23",
+    title: "'Rosie' Mug (Sin Asa)",
+    price: 200,
+    stock: 1,
+    description: `Taza modelada en arcilla tono vainilla con un diseño minimalista sin asa. El esmalte combina matices rosados y palo rosa que se funden de forma natural, creando un movimiento suave y equilibrado`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color rosado y blanco y por fuera la base de arcilla expuesta crea un contraste sutil.",
+      "Capacidad: 400ml",
+    ],
+    slug: "rosie-mug",
+    mainImage: "/piezas/Dec2025/Kahlu_ID23_00001.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID23_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00005.jpg",
+    ],
+  },
+  {
+    id: "24",
+    title: "'Baby Turtle' Trinket Dish",
+    price: 160,
+    stock: 1,
+    description: `Una pieza narrativa que captura la esencia de las tortuguitas bebés. Este pequeño plato joyero presenta una delicada tortuga marina bebé, situada en la transición exacta donde la arena se encuentra con el agua.
+    
+    Siguiendo la estética de la línea 'Seaside', el esmalte en tonos arena y turquesa se funde orgánicamente para recrear la serenidad de la costa. Es el lugar perfecto para resguardar tus anillos, joyas o pequeños tesoros diarios con un toque de encanto natural.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color turquesa y arena.",
+      "Medidas: 15cm de diámetro.",
+    ],
+    slug: "baby-turtle-trinket-dish",
+    mainImage: "/piezas/Dec2025/Kahlu_ID24_00001.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID24_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID24_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID24_00003.jpg",
+    ],
+  },
+  {
+    id: "25",
+    title: "'Coral Seashell' Trinket Dish",
+    price: 280,
+    stock: 1,
+    description: `Pieza inspirada en los tesoros marinos. Este plato joyero ha sido modelado totalmente a mano con una silueta basada en la forma de una concha marina abierta, capturando la esencia del océano en una pieza elegante y funcional.
+
+El esmalte en estilo 'Coral' presenta una base blanca luminosa con sutiles matices en tonos rosados y violetas que se funden entre las ondas naturales de la cerámica. Es el objeto perfecto para organizar tus joyas más preciadas o para funcionar como un acento decorativo único en tu espacio.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte colores blanco, con tonos morados y rosados.",
+      "Medidas: 14cm de altura.",
+    ],
+    slug: "coral-seashell-trinket-dish",
+    mainImage: "/piezas/Dec2025/Kahlu_ID25_00002.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID25_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID25_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID25_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID25_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID25_00005.jpg",
+      "/piezas/Dec2025/Kahlu_ID25_00006.jpg",
+      "/piezas/Dec2025/Kahlu_ID25_00007.jpg",
+    ],
+  },
+  {
+    id: "26",
+    title: "'By the fire' Mug",
+    price: 200,
+    stock: 1,
+    description: `Esta pieza es modelada a mano en torno. Destaca por su juego de esmaltes en bandas verticales que combinan tonos crema, ocre y un azul claro.
+
+Es una taza de carácter robusto y tacto artesanal, donde el esmalte fluye de manera orgánica sobre la arcilla, creando una sensación visual acogedora. Con su diseño clásico, es la compañera ideal para disfrutar de una bebida caliente durante una mañana lenta o una lectura tranquila al finalizar el día.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color crema por dentro. Por fuera con diseño tricolor: celeste, vainilla y color ocre.",
+      "Capacidad: 470ml",
+    ],
+    slug: "by-the-fire-mug",
+    mainImage: "/piezas/Dec2025/Kahlu_ID26_00003.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID26_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00005.jpg",
+    ],
+  },
+  {
+    id: "27",
+    title: "'Coral' Thumb Cup",
+    price: 200,
+    stock: 1,
+    description: `Esta taza estilo tumbler combina una silueta estilizada con una experiencia táctil única. Presenta hendiduras modeladas manualmente que ofrecen un agarre ergonómico y cómodo.
+
+El esmalte estilo 'Coral' funde una base blanca luminosa con matices rosados y violetas que se asientan suavemente sobre la arcilla expuesta en la base. Una pieza elegante y contemporánea, ideal para quienes buscan diseño funcional con un toque de color sutil.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte reactivo color blanco con matices rosado y violeta.",
+      "Capacidad: 500ml",
+    ],
+    slug: "coral-thumb-cup",
+    mainImage: "/piezas/Dec2025/Kahlu_ID27_00002.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID27_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID27_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID27_00003.jpg",
+    ],
+  },
+  {
+    id: "28",
+    title: "'Glacier' Thumb Cup",
+    price: 190,
+    stock: 1,
+    description: `Una pieza que equilibra la frialdad del paisaje ártico con la calidez del trabajo artesanal. Esta taza alta, modelada en torno, destaca por sus hendiduras laterales moldeadas a mano, diseñadas para que tus dedos encajen de forma natural en la pieza.
+
+Su esmalte en tonos celestes y turquesas fluye de manera orgánica sobre la arcilla clara, creando una textura visual que recuerda al hielo en el océano. Es una pieza moderna, ergonómica y perfecta para disfrutar de una bebida refrescante o un té reconfortante.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte reactivo color turquesa y celeste.",
+      "Capacidad: 35ml",
+    ],
+    slug: "glacier-thumb-cup",
+    mainImage: "/piezas/Dec2025/Kahlu_ID28_00003.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID28_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00005.jpg",
+    ],
+  },
+  // ================= EXISTENTES =================
   {
     id: "7",
     title: "Salsero 'Tierra y Agua'",
-    price: 150.0,
+    price: 120.0,
+    oldPrice: 150,
     stock: 1,
     description: `
 Una pieza funcional de cerámica, ideal para servir salsas, cremas o aderezos con un toque de distinción. Modelada a mano con el torno, en arcilla roja oscura, tiene un cómodo pico vertedor.
@@ -29,7 +236,6 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
       "/piezas/Pieza5_6.jpg",
     ],
   },
-
   {
     id: "10",
     title: "Azucarera 'Winter Shore'",
@@ -76,7 +282,6 @@ El esmalte combina azules profundos y blancos suaves con manchas doradas y óxid
     mainImage: "/piezas/Pieza11_1.jpg",
     gallery: ["/piezas/Pieza11_1.jpg", "/piezas/Pieza11_2.jpg"],
   },
-
   {
     id: "13",
     title: "Salserito 'Tierra y Agua'",
@@ -101,10 +306,9 @@ Su esmalte es una mezcla de tonos aqua, azul y potentes blanco, creando. Es idea
       "/piezas/Pieza13_4.jpg",
     ],
   },
-
   {
     id: "16",
-    title: "Azucarera 'Winter Shore' 3",
+    title: "Azucarera 'Winter Shore' #3",
     price: 200.0,
     stock: 1,
     description: `
@@ -127,11 +331,11 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
       "/piezas/Pieza16_4.jpg",
     ],
   },
-
   {
     id: "18",
     title: "Plato de cena 'Snow'",
-    price: 170,
+    price: 150,
+    oldPrice: 170,
     stock: 4,
     description: `
 Plato plano, ideal para servir comidas principales, postres o aperitivos con carácter. Modelado a mano con técnica de placas y pellizco, presenta una forma sencilla, rústica y atemporal con un sutil borde levantado.
@@ -159,8 +363,9 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
   },
   {
     id: "19",
-    title: "Bowl de cereal 'Snow'",
-    price: 120,
+    title: "Bowl de Cereal 'Snow'",
+    price: 100,
+    oldPrice: 120,
     stock: 1,
     description: `
 Bowl profundo, ideal para servir cereales, yogurt, berries, sopas o guisos. Modelado a mano con torno, presenta una forma sencilla y rústica.
@@ -174,336 +379,7 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
     ],
     slug: "bowl-cereal-snow",
     mainImage: "/piezas/Pieza19_4.jpg",
-    gallery: [
-      "/piezas/Pieza19_4.jpg",
-      "/piezas/Pieza19_6.jpg",
-    ],
-  },
-  {
-    id: "1",
-    title: "Jarrón 'Cielo Lavanda'",
-    price: 190.0,
-    stock: 0,
-    description: `
-Jarrón modelado de arcilla blanca trabajado en torno.  
-Esmalte con sutiles transiciones en tonos celestes, blancos y lilas que le otorgan profundidad y movimiento.  
-Una pieza decorativa ideal para acentuar espacios con luz natural.
-    `,
-    details: [
-      "Material: Arcilla blanca",
-      "Acabado: Esmalte vitrificado en tonos fríos",
-      "Medidas: 3 pulgadas de alto × 6.5 pulgadas de diámetro",
-    ],
-    slug: "jarron-cielo-lavanda",
-    mainImage: "/piezas/Pieza1_1.jpg",
-    gallery: [
-      "/piezas/Pieza1_1.jpg",
-      "/piezas/Pieza1_4.jpg",
-      "/piezas/Pieza1_3.jpg",
-      "/piezas/Pieza1_2.jpg",
-      "/piezas/Pieza1_6.jpg",
-    ],
-  },
-  {
-    id: "3",
-    title: "Taza 'Deep Night'",
-    price: 180.0,
-    stock: 0,
-    description: `
-Una pieza que aporta elegancia y un toque dramático a tus momentos de café. Esta taza cilíndrica ha sido modelada en torno, dejando sutiles ondas como textura en la superficie.
-
-Su esmalte exterior es de un azul profundo casi negro en algunas áreas, mientras que el interior sorprende con destellos turquesas y aqua. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte en tonos azul profundo/negro",
-      "Medidas: 4.5 pulgadas de alto × 13 pulgadas de diámetro",
-    ],
-    slug: "taza-deep-night",
-    mainImage: "/piezas/Pieza3_1.jpg",
-    gallery: [
-      "/piezas/Pieza3_1.jpg",
-      "/piezas/Pieza3_3.jpg",
-      "/piezas/Pieza3_4.jpg",
-      "/piezas/Pieza3_5.jpg",
-      "/piezas/Pieza3_7.jpg",
-      "/piezas/Pieza3_8.jpg",
-      "/piezas/Pieza3_09.jpg",
-      "/piezas/Pieza3_010.jpg",
-    ],
-  },
-  {
-    id: "2",
-    title: "Taza 'Marina'",
-    price: 200.0,
-    stock: 0,
-    description: `
-Una pieza de cerámica única, modelada con una forma redondeada. Presenta un diseño que resalta el contraste donde la base de arcilla roja oscura se encuentra con un esmalte claro de tonos azul y turquesa. El acabado de esmalte cuenta con bastante movimiento.
-
-Su silueta 'globo' es ideal para sostener en las manos mientras disfrutas de cualquier bebida caliente.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte azul y turquesa, con arcilla expuesta en la base",
-      "Medidas: 2.6 pulgadas de alto × 4 pulgadas de diámetro",
-    ],
-    slug: "taza-marina",
-    mainImage: "/piezas/Pieza2_1.jpg",
-    gallery: [
-      "/piezas/Pieza2_1.jpg",
-      "/piezas/Pieza2_4.jpg",
-      "/piezas/Pieza2_3.jpg",
-      "/piezas/Pieza2_2.jpg",
-      "/piezas/Pieza2_5.jpg",
-      "/piezas/Pieza2_7.jpg",
-      "/piezas/Pieza2_8.jpg",
-    ],
-  },
-  {
-    id: "4",
-    title: "Taza 'Speckled Snow'",
-    price: 170.0,
-    stock: 0,
-    description: `
-Una pieza compacta y robusta, ideal para un morning coffee. Modelada a mano con técnica de pellizco, su forma redondeada rústica y su asa gruesa la hacen muy cómoda de sostener. 
-
-Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla oscura, dejando la base expuesta para un hermoso contraste.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con manchas azules.",
-      "Medidas: 3 pulgadas de alto × 3.5 pulgadas de diámetro",
-    ],
-    slug: "taza-speckled-snow",
-    mainImage: "/piezas/Pieza4_1.jpg",
-    gallery: [
-      "/piezas/Pieza4_1.jpg",
-      "/piezas/Pieza4_2.jpg",
-      "/piezas/Pieza4_3.jpg",
-      "/piezas/Pieza4_4.jpg",
-      "/piezas/Pieza4_5.jpg",
-      "/piezas/Pieza4_6.jpg",
-      "/piezas/Pieza4_7.jpg",
-      "/piezas/Pieza4_8.jpg",
-      "/piezas/Pieza4_9.jpg",
-    ],
-  },
-  {
-    id: "14",
-    title: "Duo de tazas 'Frost'",
-    price: 230.0,
-    stock: 0,
-    description: `
-Parejita de tazas de cerámica con una silueta redondeada y baja, con estilo taza de capuccino. Modeladas a mano y presentan un esmalte de base blanco frío con puntos de azul pálido.`,
-    details: [
-      "Material: Arcilla roja",
-      "Venta: En stock hay 2 parejas, solo se venden en dúo.",
-      "Acabado: Esmalte con tonos blancos y azules.",
-      "Medidas: 2.5 pulgadas de alto × 3 pulgadas de diámetro",
-    ],
-    slug: "duo-tazas-frost",
-    mainImage: "/piezas/Pieza14_1.jpg",
-    gallery: [
-      "/piezas/Pieza14_1.jpg",
-      "/piezas/Pieza14_2.jpg",
-      "/piezas/Pieza14_3.jpg",
-      "/piezas/Pieza14_4.jpg",
-      "/piezas/Pieza14_5.jpg",
-      "/piezas/Pieza14_6.jpg",
-      "/piezas/Pieza14_7.jpg",
-      "/piezas/Pieza14_8.jpg",
-      "/piezas/Pieza14_9.jpg",
-    ],
-  },
-  {
-    id: "5",
-    title: "'Winter' Seashell",
-    price: 230.0,
-    stock: 0,
-    description: `
-Una pieza decorativa modelada a mano, inspirada en las formas naturales del espiral de las conchas marinas.
-
-Su esmalte mezcla blancos cremosos y azules leves con el tono cálido de la arcilla roja, dándole una apariencia de tesoro antiguo. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco crema con tonos azules.",
-      "Uso: Decorativo",
-      "Medidas: 10 pulgadas de largo",
-    ],
-    slug: "winter-seashell",
-    mainImage: "/piezas/Pieza7_1.jpg",
-    gallery: [
-      "/piezas/Pieza7_1.jpg",
-      "/piezas/Pieza7_2.jpg",
-      "/piezas/Pieza7_3.jpg",
-      "/piezas/Pieza7_4.jpg",
-    ],
-  },
-
-  {
-    id: "6",
-    title: "Dúo de Trinket Dishes 'Winter'",
-    price: 120.0,
-    stock: 0,
-    description: `
-Un encantador par de platitos funcionales, perfectos para organizar anillos, aretes, u otros.
-
-Modelados en torno, presentan un esmalte en tonos celestes y blancos con un borde sutilmente oscuro.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules.",
-      "Uso: Trinket dishes (para joyas y objetos pequeños)",
-      "Medidas: 4.7 pulgadas de diámetro",
-      "Venta: Se venden en Set de 2.",
-    ],
-    slug: "duo-trinket-dishes-winter",
-    mainImage: "/piezas/Pieza6_1.jpg",
-    gallery: [
-      "/piezas/Pieza6_1.jpg",
-      "/piezas/Pieza6_2.jpg",
-      "/piezas/Pieza6_3.jpg",
-    ],
-  },
-  {
-    id: "15",
-    title: "Azucarera 'Winter Shore' 2",
-    price: 220,
-    stock: 0,
-    description: `
-Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor con forma leve de globo ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
-
-El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando olas frías rompiendo en la orilla. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules y óxido.",
-      "Uso: Azucarera, salero, o para guardar té por ejemplo.",
-      "Medidas: 5 pulgadas de alto × 4 pulgadas de diámetro",
-    ],
-    slug: "azucarera-winter-shore2",
-    mainImage: "/piezas/Pieza15_1.jpg",
-    gallery: [
-      "/piezas/Pieza15_1.jpg",
-      "/piezas/Pieza15_2.jpg",
-      "/piezas/Pieza15_3.jpg",
-      "/piezas/Pieza15_4.jpg",
-    ],
-  },
-  {
-    id: "17",
-    title: "Taza 'Deep Sea Waves' 2",
-    price: 200.0,
-    stock: 0,
-    description: `
-Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
-
-Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
-      "Medidas: 4 pulgadas de alto × 3.5 pulgadas de diámetro",
-    ],
-    slug: "taza-deep-sea-waves-2",
-    mainImage: "/piezas/Pieza17_1.jpg",
-    gallery: [
-      "/piezas/Pieza17_1.jpg",
-      "/piezas/Pieza17_2.jpg",
-      "/piezas/Pieza17_3.jpg",
-      "/piezas/Pieza17_4.jpg",
-      "/piezas/Pieza17_5.jpg",
-      "/piezas/Pieza17_6.jpg",
-      "/piezas/Pieza17_7.jpg",
-      "/piezas/Pieza17_8.jpg",
-      "/piezas/Pieza17_9.jpg",
-    ],
-  },
-  {
-    id: "8",
-    title: "Taza 'Gold Breeze'",
-    price: 180.0,
-    stock: 0,
-    description: `
-Esta taza, modelada a en torno con una silueta baja y ancha, está diseñada para ser cómoda y estable. Su esmalte tiene una mezcla de azules suaves y blancos, con sutiles puntos dorados y óxido que le dan una textura visual única y cálida.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte brillante en tonos azul/blanco con acentos óxido.",
-      "Medidas: 3 pulgadas de alto × 3.5 pulgadas de diámetro",
-    ],
-    slug: "taza-gold-breeze",
-    mainImage: "/piezas/Pieza8_1.jpg",
-    gallery: [
-      "/piezas/Pieza8_1.jpg",
-      "/piezas/Pieza8_2.jpg",
-      "/piezas/Pieza8_3.jpg",
-      "/piezas/Pieza8_4.jpg",
-      "/piezas/Pieza8_5.jpg",
-      "/piezas/Pieza8_6.jpg",
-      "/piezas/Pieza8_7.jpg",
-    ],
-  },
-  {
-    id: "12",
-    title: "Taza 'Ballena'",
-    price: { from: 200, to: 250 },
-    stock: 0,
-    description: `
-Piezas de colección que fusionan arte y funcionalidad. Estas tazas han sido modeladas en torno y su asa a mano. Con forma redondeada y con un detalle escultural distintivo: el asa se fusiona con una aleta de ballena texturizada.
-Dos piezas disponibles en distintas capacidades y colores. La grande mas oscura con tonos azules y la pequeña en tonos aqua y turquesa.
-Los estilos de estos esmaltes crean un efecto acuático que combina azules profundos y blancos espumosos, reforzando la inspiración marina.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules.",
-      "Medidas: 2.5 pulgadas de alto × 3 pulgadas de diámetro la pequeña, 2.5 pulgadas de alto × 3.7 pulgadas de diámetro la grande.",
-      "Venta: Se venden en Set de 2, o por separado. Consultar precio individual o del set.",
-    ],
-    slug: "taza-ballena",
-    mainImage: "/piezas/Pieza12_1.jpg",
-    gallery: [
-      "/piezas/Pieza12_1.jpg",
-      "/piezas/Pieza12_2.jpg",
-      "/piezas/Pieza12_3.jpg",
-      "/piezas/Pieza12_4.jpg",
-      "/piezas/Pieza12_5.jpg",
-      "/piezas/Pieza12_6.jpg",
-      "/piezas/Pieza12_7.jpg",
-      "/piezas/Pieza12_8.jpg",
-    ],
-  },
-  {
-    id: "9",
-    title: "Taza 'Deep Sea Waves'",
-    price: 200.0,
-    stock: 0,
-    description: `
-Esta taza es una pieza de carácter que destaca por su forma suave y su textura de olas. El esmalte, aplicado a mano, crea un efecto de profundidad al fusionar tonos azul marino, negro y vibrantes destellos aqua/verde en las olas de la taza.
-
-Es una taza cómoda, robusta y visualmente única para disfrutar de tu bebida favorita.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte que combina tonos translúcidos y aqua profundo.",
-      "Medidas: 3.8 pulgadas de alto × 3.6 pulgadas de diámetro",
-      ,
-    ],
-    slug: "taza-deep-sea-waves",
-    mainImage: "/piezas/Pieza9_1.jpg",
-    gallery: [
-      "/piezas/Pieza9_1.jpg",
-      "/piezas/Pieza9_2.jpg",
-      "/piezas/Pieza9_3.jpg",
-      "/piezas/Pieza9_4.jpg",
-      "/piezas/Pieza9_5.jpg",
-      "/piezas/Pieza9_6.jpg",
-      "/piezas/Pieza9_7.jpg",
-      "/piezas/Pieza9_8.jpg",
-      "/piezas/Pieza9_9.jpg",
-      "/piezas/Pieza9_010.jpg",
-    ],
+    gallery: ["/piezas/Pieza19_4.jpg", "/piezas/Pieza19_6.jpg"],
   },
 ];
 

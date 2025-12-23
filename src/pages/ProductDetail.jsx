@@ -40,10 +40,22 @@ function ProductDetail() {
     );
   }
 
-  const formattedPrice = new Intl.NumberFormat("es-GT", {
+  const currencyFormatter = new Intl.NumberFormat("es-GT", {
     style: "currency",
     currency: "GTQ",
-  }).format(product.price);
+  });
+
+  // --- LÓGICA DE PRECIO ACTUALIZADA ---
+  let priceDisplay;
+  if (product.price && typeof product.price === "object" && product.price.pareja) {
+    // Formato: Unidad Q200.00 – Pareja: Q370.00
+    priceDisplay = `Unidad ${currencyFormatter.format(product.price.individual)} – Pareja ${currencyFormatter.format(product.price.pareja)}`;
+  } else {
+    // Formato normal: Q200.00
+    priceDisplay = currencyFormatter.format(product.price);
+  }
+
+  const oldPriceText = product.oldPrice ? currencyFormatter.format(product.oldPrice) : null;
 
   const stockMessage =
     product.stock > 0
@@ -113,7 +125,6 @@ function ProductDetail() {
         width="100%"
         textAlign={{ xs: "center", md: "left" }}
       >
-        {/* 🔠 Título */}
         <Typography
           variant="h4"
           sx={{
@@ -126,17 +137,39 @@ function ProductDetail() {
           {product.title}
         </Typography>
 
-        {/* 💰 Precio */}
-        <Typography
-          variant="h6"
+        {/* 💰 Precio (Con soporte para oferta por pareja) */}
+        <Box
           sx={{
+            display: "flex",
+            alignItems: "baseline",
+            justifyContent: { xs: "center", md: "flex-start" },
+            gap: 2,
             mb: 2,
-            color: theme.palette.aguaSuave.main,
-            fontWeight: 700,
           }}
         >
-          {formattedPrice}
-        </Typography>
+          {oldPriceText && (
+            <Typography
+              variant="h6"
+              sx={{
+                color: "rgba(0, 0, 0, 0.4)",
+                textDecoration: "line-through",
+                fontWeight: 400,
+                fontSize: "1.1rem",
+              }}
+            >
+              {oldPriceText}
+            </Typography>
+          )}
+          <Typography
+            variant="h6"
+            sx={{
+              color: oldPriceText ? theme.palette.terracota.main : "#7BAFAC", 
+              fontWeight: 700,
+            }}
+          >
+            {priceDisplay}
+          </Typography>
+        </Box>
 
         {/* 📝 Descripción */}
         <Typography
@@ -190,8 +223,8 @@ function ProductDetail() {
               fontWeight: 600,
               backgroundColor:
                 product.stock > 0
-                  ? "rgba(138, 141, 95, 0.15)" // verde olivo claro
-                  : "rgba(162, 103, 76, 0.15)", // terracota claro
+                  ? "rgba(138, 141, 95, 0.15)"
+                  : "rgba(162, 103, 76, 0.15)",
               color:
                 product.stock > 0
                   ? theme.palette.verdeOliva.main
@@ -202,7 +235,6 @@ function ProductDetail() {
           </Typography>
         </Box>
 
-        {/* 🔘 Botón separado */}
         <Box
           sx={{
             display: "flex",
@@ -215,7 +247,6 @@ function ProductDetail() {
         </Box>
       </Box>
 
-      {/* 🎨 Estilos personalizados Swiper */}
       <style>
         {`
           .swiper-button-next svg,
@@ -223,15 +254,6 @@ function ProductDetail() {
             filter: drop-shadow(0 0 1px white)
               drop-shadow(0 0 3px white)
               drop-shadow(0 0 6px rgba(255,255,255,0.9));
-          }
-
-          .swiper-button-next:hover svg,
-          .swiper-button-prev:hover svg {
-            filter: drop-shadow(0 0 2px white)
-              drop-shadow(0 0 6px white)
-              drop-shadow(0 0 12px rgba(255,255,255,1));
-            transform: scale(1.2);
-            transition: all 0.2s ease;
           }
         `}
       </style>

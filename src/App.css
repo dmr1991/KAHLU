@@ -165,7 +165,7 @@ header h1 {
   left: 0;
   width: 100%;
   /* Estilos del fondo semi-transparente */
-  background-color: rgba(123, 175, 172, 0.35 ); /* Fondo Agua Suave con opacidad */
+  background-color: rgba(148, 148, 148, 0.35); /* Fondo Agua Suave con opacidad */
   backdrop-filter: blur(6px); /* Efecto de desenfoque sutil (opcional) */
 
   padding: 10px 5px;
