@@ -55,7 +55,7 @@ El esmalte combina la suavidad del color crema con la profundidad de un tono bur
     id: "22",
     title: "'Seaside' Mug (Sin Asa)",
     price: 185,
-    stock: 1,
+    stock: 0,
     description: `Taza modelada en arcilla tono vainilla, con un diseño minimalista sin asa tipo tumbler. Su acabado en esmalte celeste se funde suavemente con la base color arena, evocando la calma de un paisaje costero. Una pieza versátil e ideal tanto para bebidas frías como calientes.`,
     details: [
       "Material: Arcilla color vainilla",
@@ -212,7 +212,7 @@ Su esmalte en tonos celestes y turquesas fluye de manera orgánica sobre la arci
     title: "Salsero 'Tierra y Agua'",
     price: 120.0,
     oldPrice: 150,
-    stock: 1,
+    stock: 0,
     description: `
 Una pieza funcional de cerámica, ideal para servir salsas, cremas o aderezos con un toque de distinción. Modelada a mano con el torno, en arcilla roja oscura, tiene un cómodo pico vertedor.
 
@@ -267,7 +267,7 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
     id: "11",
     title: "Pichelito 'Gold Breeze'",
     price: 180.0,
-    stock: 1,
+    stock: 0,
     description: `
 Una pieza funcional y con carácter, ideal como cremera, jarra de leche o para servir cualquier aderezo. Su diseño cilíndrico ha sido modelado en torno e incluye un pico vertedor.
 
@@ -286,7 +286,7 @@ El esmalte combina azules profundos y blancos suaves con manchas doradas y óxid
     id: "13",
     title: "Salserito 'Tierra y Agua'",
     price: 90.0,
-    stock: 1,
+    stock: 0,
     description: `
 Salserito con perfil bajo y un práctico pico vertedor. Esta pieza ha sido modelada a mano con técnica de pellizco y presenta la calidez de la arcilla roja expuesta en su base.
 
@@ -366,7 +366,7 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
     title: "Bowl de Cereal 'Snow'",
     price: 100,
     oldPrice: 120,
-    stock: 1,
+    stock: 0,
     description: `
 Bowl profundo, ideal para servir cereales, yogurt, berries, sopas o guisos. Modelado a mano con torno, presenta una forma sencilla y rústica.
 
