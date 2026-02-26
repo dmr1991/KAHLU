@@ -1,13 +1,40 @@
 const products = [
   // ================= NUEVOS PLACEHOLDER =================
   {
+    id: "18",
+    title: "Plato de cena 'Snow'",
+    price: 135,
+    oldPrice: 170,
+    stock: 4,
+    description: `
+Plato plano, ideal para servir comidas principales, postres o aperitivos con carácter. Modelado a mano con técnica de placas y pellizco, presenta una forma sencilla, rústica y atemporal con un sutil borde levantado.
+
+Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y oscuros. Se percibe en los bordes la arcilla roja bajo un esmalte translúcido.
+    `,
+    details: [
+      "Material: Arcilla roja",
+      "Acabado: Esmalte blanco con tonos azules claros y oscuros.",
+      "Medidas: 8.7 pulgadas de diámetro",
+    ],
+    slug: "plato-cena-snow",
+    mainImage: "/piezas/Pieza18_1.jpg",
+    gallery: [
+      "/piezas/Pieza18_1.jpg",
+      "/piezas/Pieza18_2.jpg",
+      "/piezas/Pieza18_3.jpg",
+      "/piezas/Pieza18_4.jpg",
+      "/piezas/Pieza18_5.jpg",
+      "/piezas/Pieza18_6.jpg",
+      "/piezas/Pieza18_7.jpg",
+      "/piezas/Pieza18_8.jpg",
+      "/piezas/Pieza18_9.jpg",
+    ],
+  },
+  {
     id: "20",
     title: "'Space' Mug (Sin Asa)",
-    price: {
-    individual: 200,
-    pareja: 370
-  },
-    stock: 2,
+    price: 200,
+    stock: 1,
     description: `Taza modelada a mano en torno, con un diseño minimalista sin asa estilo tumbler. Su esmalte reactivo en tonos galácticos crea transiciones únicas entre púrpuras profundos y verdes nebulosa. Una pieza de carácter moderno, ideal para transformar el ritual de tus bebidas frías o calientes.`,
     details: [
       "Material: Arcilla color vainilla",
@@ -52,27 +79,6 @@ El esmalte combina la suavidad del color crema con la profundidad de un tono bur
     ],
   },
 
-  {
-    id: "23",
-    title: "'Rosie' Mug (Sin Asa)",
-    price: 200,
-    stock: 1,
-    description: `Taza modelada en arcilla tono vainilla con un diseño minimalista sin asa. El esmalte combina matices rosados y palo rosa que se funden de forma natural, creando un movimiento suave y equilibrado`,
-    details: [
-      "Material: Arcilla color vainilla",
-      "Acabado: Esmalte color rosado y blanco y por fuera la base de arcilla expuesta crea un contraste sutil.",
-      "Capacidad: 400ml",
-    ],
-    slug: "rosie-mug",
-    mainImage: "/piezas/Dec2025/Kahlu_ID23_00001.jpg",
-    gallery: [
-      "/piezas/Dec2025/Kahlu_ID23_00001.jpg",
-      "/piezas/Dec2025/Kahlu_ID23_00002.jpg",
-      "/piezas/Dec2025/Kahlu_ID23_00003.jpg",
-      "/piezas/Dec2025/Kahlu_ID23_00004.jpg",
-      "/piezas/Dec2025/Kahlu_ID23_00005.jpg",
-    ],
-  },
   {
     id: "24",
     title: "'Baby Turtle' Trinket Dish",
@@ -216,7 +222,6 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
     ],
   },
 
-
   {
     id: "16",
     title: "Azucarera 'Winter Shore' #3",
@@ -242,37 +247,6 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
       "/piezas/Pieza16_4.jpg",
     ],
   },
-  {
-    id: "18",
-    title: "Plato de cena 'Snow'",
-    price: 150,
-    oldPrice: 170,
-    stock: 4,
-    description: `
-Plato plano, ideal para servir comidas principales, postres o aperitivos con carácter. Modelado a mano con técnica de placas y pellizco, presenta una forma sencilla, rústica y atemporal con un sutil borde levantado.
-
-Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y oscuros. Se percibe en los bordes la arcilla roja bajo un esmalte translúcido.
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte blanco con tonos azules claros y oscuros.",
-      "Medidas: 8.7 pulgadas de diámetro",
-    ],
-    slug: "plato-cena-snow",
-    mainImage: "/piezas/Pieza18_1.jpg",
-    gallery: [
-      "/piezas/Pieza18_1.jpg",
-      "/piezas/Pieza18_2.jpg",
-      "/piezas/Pieza18_3.jpg",
-      "/piezas/Pieza18_4.jpg",
-      "/piezas/Pieza18_5.jpg",
-      "/piezas/Pieza18_6.jpg",
-      "/piezas/Pieza18_7.jpg",
-      "/piezas/Pieza18_8.jpg",
-      "/piezas/Pieza18_9.jpg",
-    ],
-  },
-
 ];
 
 export default products;

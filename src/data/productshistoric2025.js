@@ -564,6 +564,27 @@ Esmaltada con un azul celeste que crea un efecto 'speckled' sobre la arcilla osc
     ],
   },
   {
+    id: "23",
+    title: "'Rosie' Mug (Sin Asa)",
+    price: 200,
+    stock: 1,
+    description: `Taza modelada en arcilla tono vainilla con un diseño minimalista sin asa. El esmalte combina matices rosados y palo rosa que se funden de forma natural, creando un movimiento suave y equilibrado`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color rosado y blanco y por fuera la base de arcilla expuesta crea un contraste sutil.",
+      "Capacidad: 400ml",
+    ],
+    slug: "rosie-mug",
+    mainImage: "/piezas/Dec2025/Kahlu_ID23_00001.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID23_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID23_00005.jpg",
+    ],
+  },
+  {
     id: "18",
     title: "Plato de cena 'Snow'",
     price: 170,
