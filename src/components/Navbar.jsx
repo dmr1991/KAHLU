@@ -33,7 +33,7 @@ function Navbar() {
         justifyContent: "space-between",
         alignItems: "center",
         padding: "15px 40px",
-        backgroundColor: "#fff",
+        backgroundColor: "theme.palette.arenaPalida.main,",
         borderBottom: `0px solid ${theme.palette.arcillaSuave.main}`,
         width: "100%",
         boxSizing: "border-box",
@@ -66,7 +66,7 @@ function Navbar() {
         <Typography
           variant="h5"
           sx={{
-            fontFamily: '"Cormorant Garamond", serif',
+            fontFamily: '"Montserrat", serif',
             fontWeight: 600,
             color: theme.palette.terracota.main,
             letterSpacing: "1px",
@@ -92,7 +92,9 @@ function Navbar() {
             size="large"
             sx={{
               color: "#555",
+              textTransform: "uppercase",
               fontSize: "1.1em",
+              fontWeight: 600,
               marginLeft: "20px",
               fontFamily: '"Montserrat", sans-serif',
               "&:hover": {
@@ -152,6 +154,7 @@ function Navbar() {
               sx={{
                 textDecoration: "none",
                 color: "#555",
+                textTransform: "uppercase",
                 "&:hover": {
                   color: theme.palette.terracota.main,
                 },

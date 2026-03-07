@@ -34,7 +34,7 @@ function Home() {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(255, 255, 255, 0.51)",
+          backgroundColor: "rgba(0, 0, 0, 0.51)",
           zIndex: 0,
         }}
       />
@@ -47,12 +47,13 @@ function Home() {
             fontFamily: "'Montserrat', serif",
             fontWeight: 600,
             textTransform: "uppercase",
-            color: theme.palette.terracota.main,
+            color: theme.palette.arenaPalida.main,
             mb: 2,
-            fontSize: { xs: "2rem", md: "3.5rem" },
+            uppercase: true,
+            fontSize: { xs: "2rem", md: "4.5rem" },
           }}
         >
-          Piezas de cerámica hechas 100% a mano.
+          Piezas de cerámica<br></br>hechas 100% a mano.
         </Typography>
 
         <Typography
@@ -61,6 +62,8 @@ function Home() {
             mb: 10,
             maxWidth: "600px",
             margin: "0 auto",
+            fontFamily: "'Montserrat', sans-serif",
+            color:theme.palette.arenaPalida.main
           }}
         >
           Piezas funcionales y decorativas únicas, hechas a mano en torno o

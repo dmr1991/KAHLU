@@ -35,12 +35,12 @@ function Catalog() {
         sx={{
           textAlign: "center",
           marginBottom: "30px",
-          fontFamily: '"Cormorant Garamond", serif',
+          fontFamily: '"Montserrat", serif',
           fontWeight: 600,
-          color: theme.palette.aguaSuave.main,
+          color: theme.palette.terracota.main,
         }}
       >
-        Catálogo de Piezas Disponibles
+        CATÁLOGO DE PIEZAS DISPONIBLES
       </Typography>
 
       <Grid

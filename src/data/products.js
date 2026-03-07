@@ -30,31 +30,7 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
       "/piezas/Pieza18_9.jpg",
     ],
   },
-  {
-    id: "20",
-    title: "'Space' Mug (Sin Asa)",
-    price: 200,
-    stock: 1,
-    description: `Taza modelada a mano en torno, con un diseño minimalista sin asa estilo tumbler. Su esmalte reactivo en tonos galácticos crea transiciones únicas entre púrpuras profundos y verdes nebulosa. Una pieza de carácter moderno, ideal para transformar el ritual de tus bebidas frías o calientes.`,
-    details: [
-      "Material: Arcilla color vainilla",
-      "Acabado: Esmalte negro con tonos verdes, azules y morados.",
-      "Venta: Se vende por unidad o la pareja mientras haya existencias.",
-      "Capacidad: 450ml",
-      ,
-    ],
-    slug: "space-mug-",
-    mainImage: "/piezas/Dec2025/Kahlu_ID20_00008.jpg",
-    gallery: [
-      "/piezas/Dec2025/Kahlu_ID20_00001.jpg",
-      "/piezas/Dec2025/Kahlu_ID20_00003.jpg",
-      "/piezas/Dec2025/Kahlu_ID20_00002.jpg",
-      "/piezas/Dec2025/Kahlu_ID20_00004.jpg",
-      "/piezas/Dec2025/Kahlu_ID20_00005.jpg",
-      "/piezas/Dec2025/Kahlu_ID20_00006.jpg",
-      "/piezas/Dec2025/Kahlu_ID20_00007.jpg",
-    ],
-  },
+  
   {
     id: "21",
     title: "'Cream Burgundy' Coffee Cup",

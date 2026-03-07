@@ -52,12 +52,13 @@ function Contact() {
       <Typography
         variant="h3"
         sx={{
-          fontFamily: "'Cormorant Garamond', serif",
+          fontFamily: "'Montserrat', serif",
           color: theme.palette.terracota.main,
           mb: 2,
+          fontWeight: 600,
         }}
       >
-        Contáctanos
+        CONTACTO
       </Typography>
 
       {/* Descripción */}
@@ -68,11 +69,11 @@ function Contact() {
           mb: 6,
           fontSize: "1.2rem",
           lineHeight: 1.6,
-          fontFamily: "'Raleway', sans-serif",
+          fontFamily: "'Montserrat', sans-serif",
         }}
       >
-        Si deseas realizar un pedido personalizado o conocer más sobre nuestras
-        piezas, completa el formulario o escríbenos directamente por Instagram o correo electrónico.
+        Si deseas consultar sobre un pedido personalizado o conocer más sobre mis
+        piezas, completa el formulario o mándame mensaje directo por Instagram o correo electrónico.
       </Typography>
 
       {/* Contenedor principal */}
@@ -123,7 +124,7 @@ function Contact() {
         <Box
           sx={{
             flex: 0.8,
-            backgroundColor: "#f7f3ef",
+            backgroundColor: "#0000000",
             borderRadius: "8px",
             display: "flex",
             flexDirection: "column",
@@ -132,24 +133,15 @@ function Contact() {
             p: 4,
           }}
         >
-          <Typography
-            variant="h5"
-            sx={{
-              fontFamily: "'Cormorant Garamond', serif",
-              color: theme.palette.terracota.main,
-              mb: 3,
-            }}
-          >
-            También puedes escribirnos por:
-          </Typography>
 
-          <CustomButton
-            href="https://www.instagram.com/kahlu.ceramica/"
-            target="_blank"
-            sx={{ minWidth: "220px", mb: 3 }}
-          >
-            Instagram
-          </CustomButton>
+<CustomButton
+  href="https://www.instagram.com/kahlu.ceramica/"
+  target="_blank"
+  sx={{ minWidth: "220px", mb: 3 }}
+  startIcon={<img src="/assets/instagramlogo.png" alt="Instagram" style={{ width: 40, height: 40 }} />}
+>
+  Instagram 
+</CustomButton>
 
           {/* Email copiable */}
           <Box

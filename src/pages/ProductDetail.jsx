@@ -111,7 +111,7 @@ function ProductDetail() {
                   width: "100%",
                   height: { xs: 320, sm: 380, md: 600 },
                   objectFit: "contain",
-                  backgroundColor: "#f8f8f8",
+                  backgroundColor: "#ffffff0",//GALERIA FULL PAGE
                 }}
               />
             </SwiperSlide>

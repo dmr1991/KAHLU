@@ -68,8 +68,9 @@ header h1 {
   font-size: 1.8em;
   font-weight: 700;
   /* FUENTE DEL LOGO/MARCA */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Mo", serif;
   color: #a2674c; /* Terracota Natural */
+  font-weight: 600;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -165,12 +166,10 @@ header h1 {
   left: 0;
   width: 100%;
   /* Estilos del fondo semi-transparente */
-  background-color: rgba(148, 148, 148, 0.35); /* Fondo Agua Suave con opacidad */
+  background-color: rgba(142, 142, 142, 0.147); /* Fondo Agua Suave con opacidad */
   backdrop-filter: blur(6px); /* Efecto de desenfoque sutil (opcional) */
-
   padding: 10px 5px;
   text-align: center;
-  color: #333;
   transition: opacity 0.3s ease;
 }
 
@@ -179,12 +178,12 @@ header h1 {
   font-size: 1.3em;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #ffffff; /* Terracota Natural */
+  color: #ffffff; 
 }
 
 .product-card-info-overlay .price {
   font-size: 1em;
-  color: #ffffff; /* Precio en Agua Suave */
+  color: #ffffff;
   font-weight: 400;
   margin: 0;
 }
