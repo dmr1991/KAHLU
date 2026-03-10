@@ -53,6 +53,30 @@ Su silueta 'globo' es ideal para sostener en las manos mientras disfrutas de cua
       "/piezas/Pieza2_8.jpg",
     ],
   },
+
+  {
+    id: "26",
+    title: "'By the fire' Mug",
+    price: 200,
+    stock: 1,
+    description: `Esta pieza es modelada a mano en torno. Destaca por su juego de esmaltes en bandas verticales que combinan tonos crema, ocre y un azul claro.
+
+Es una taza de carácter robusto y tacto artesanal, donde el esmalte fluye de manera orgánica sobre la arcilla, creando una sensación visual acogedora. Con su diseño clásico, es la compañera ideal para disfrutar de una bebida caliente durante una mañana lenta o una lectura tranquila al finalizar el día.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte color crema por dentro. Por fuera con diseño tricolor: celeste, vainilla y color ocre.",
+      "Capacidad: 470ml",
+    ],
+    slug: "by-the-fire-mug",
+    mainImage: "/piezas/Dec2025/Kahlu_ID26_00003.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID26_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID26_00005.jpg",
+    ],
+  },
   {
     id: "3",
     title: "Taza 'Deep Night'",
@@ -636,6 +660,29 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
       "/piezas/Dec2025/Kahlu_ID20_00005.jpg",
       "/piezas/Dec2025/Kahlu_ID20_00006.jpg",
       "/piezas/Dec2025/Kahlu_ID20_00007.jpg",
+    ],
+  },
+  {
+    id: "28",
+    title: "'Glacier' Thumb Cup",
+    price: 190,
+    stock: 1,
+    description: `Una pieza que equilibra la frialdad del paisaje ártico con la calidez del trabajo artesanal. Esta taza alta, modelada en torno, destaca por sus hendiduras laterales moldeadas a mano, diseñadas para que tus dedos encajen de forma natural en la pieza.
+
+Su esmalte en tonos celestes y turquesas fluye de manera orgánica sobre la arcilla clara, creando una textura visual que recuerda al hielo en el océano. Es una pieza moderna, ergonómica y perfecta para disfrutar de una bebida refrescante o un té reconfortante.`,
+    details: [
+      "Material: Arcilla color vainilla",
+      "Acabado: Esmalte reactivo color turquesa y celeste.",
+      "Capacidad: 35ml",
+    ],
+    slug: "glacier-thumb-cup",
+    mainImage: "/piezas/Dec2025/Kahlu_ID28_00003.jpg",
+    gallery: [
+      "/piezas/Dec2025/Kahlu_ID28_00001.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00002.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00003.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00004.jpg",
+      "/piezas/Dec2025/Kahlu_ID28_00005.jpg",
     ],
   },
   {

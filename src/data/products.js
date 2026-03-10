@@ -30,7 +30,7 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
       "/piezas/Pieza18_9.jpg",
     ],
   },
-  
+
   {
     id: "21",
     title: "'Cream Burgundy' Coffee Cup",
@@ -102,75 +102,6 @@ El esmalte en estilo 'Coral' presenta una base blanca luminosa con sutiles matic
     ],
   },
   {
-    id: "26",
-    title: "'By the fire' Mug",
-    price: 200,
-    stock: 1,
-    description: `Esta pieza es modelada a mano en torno. Destaca por su juego de esmaltes en bandas verticales que combinan tonos crema, ocre y un azul claro.
-
-Es una taza de carácter robusto y tacto artesanal, donde el esmalte fluye de manera orgánica sobre la arcilla, creando una sensación visual acogedora. Con su diseño clásico, es la compañera ideal para disfrutar de una bebida caliente durante una mañana lenta o una lectura tranquila al finalizar el día.`,
-    details: [
-      "Material: Arcilla color vainilla",
-      "Acabado: Esmalte color crema por dentro. Por fuera con diseño tricolor: celeste, vainilla y color ocre.",
-      "Capacidad: 470ml",
-    ],
-    slug: "by-the-fire-mug",
-    mainImage: "/piezas/Dec2025/Kahlu_ID26_00003.jpg",
-    gallery: [
-      "/piezas/Dec2025/Kahlu_ID26_00001.jpg",
-      "/piezas/Dec2025/Kahlu_ID26_00002.jpg",
-      "/piezas/Dec2025/Kahlu_ID26_00003.jpg",
-      "/piezas/Dec2025/Kahlu_ID26_00004.jpg",
-      "/piezas/Dec2025/Kahlu_ID26_00005.jpg",
-    ],
-  },
-  {
-    id: "27",
-    title: "'Coral' Thumb Cup",
-    price: 200,
-    stock: 1,
-    description: `Esta taza estilo tumbler combina una silueta estilizada con una experiencia táctil única. Presenta hendiduras modeladas manualmente que ofrecen un agarre ergonómico y cómodo.
-
-El esmalte estilo 'Coral' funde una base blanca luminosa con matices rosados y violetas que se asientan suavemente sobre la arcilla expuesta en la base. Una pieza elegante y contemporánea, ideal para quienes buscan diseño funcional con un toque de color sutil.`,
-    details: [
-      "Material: Arcilla color vainilla",
-      "Acabado: Esmalte reactivo color blanco con matices rosado y violeta.",
-      "Capacidad: 500ml",
-    ],
-    slug: "coral-thumb-cup",
-    mainImage: "/piezas/Dec2025/Kahlu_ID27_00002.jpg",
-    gallery: [
-      "/piezas/Dec2025/Kahlu_ID27_00001.jpg",
-      "/piezas/Dec2025/Kahlu_ID27_00002.jpg",
-      "/piezas/Dec2025/Kahlu_ID27_00003.jpg",
-    ],
-  },
-  {
-    id: "28",
-    title: "'Glacier' Thumb Cup",
-    price: 190,
-    stock: 1,
-    description: `Una pieza que equilibra la frialdad del paisaje ártico con la calidez del trabajo artesanal. Esta taza alta, modelada en torno, destaca por sus hendiduras laterales moldeadas a mano, diseñadas para que tus dedos encajen de forma natural en la pieza.
-
-Su esmalte en tonos celestes y turquesas fluye de manera orgánica sobre la arcilla clara, creando una textura visual que recuerda al hielo en el océano. Es una pieza moderna, ergonómica y perfecta para disfrutar de una bebida refrescante o un té reconfortante.`,
-    details: [
-      "Material: Arcilla color vainilla",
-      "Acabado: Esmalte reactivo color turquesa y celeste.",
-      "Capacidad: 35ml",
-    ],
-    slug: "glacier-thumb-cup",
-    mainImage: "/piezas/Dec2025/Kahlu_ID28_00003.jpg",
-    gallery: [
-      "/piezas/Dec2025/Kahlu_ID28_00001.jpg",
-      "/piezas/Dec2025/Kahlu_ID28_00002.jpg",
-      "/piezas/Dec2025/Kahlu_ID28_00003.jpg",
-      "/piezas/Dec2025/Kahlu_ID28_00004.jpg",
-      "/piezas/Dec2025/Kahlu_ID28_00005.jpg",
-    ],
-  },
-  // ================= EXISTENTES =================
-
-  {
     id: "10",
     title: "Azucarera 'Winter Shore'",
     price: 200.0,
@@ -223,6 +154,7 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
       "/piezas/Pieza16_4.jpg",
     ],
   },
+  
 ];
 
 export default products;
