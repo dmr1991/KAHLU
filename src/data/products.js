@@ -31,29 +31,7 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
     ],
   },
 
-  {
-    id: "21",
-    title: "'Cream Burgundy' Coffee Cup",
-    price: 170,
-    stock: 1,
-    description: `Una pieza diseñada para los amantes del detalle. Esta taza de café, modelada a mano sobre arcilla clara en tono vainilla, presenta una silueta redondeada, pensada para disfrutar de un cappuccino perfecto.
-
-El esmalte combina la suavidad del color crema con la profundidad de un tono burgundy en la base, logrando un contraste sofisticado y clásico. Una pieza que aporta calidez y elegancia a cualquier ritual de mañana.`,
-    details: [
-      "Material: Arcilla color vainilla",
-      "Acabado: Esmalte color crema con speckles cafés y color burgundy en la base.",
-      "Capacidad: 225ml",
-    ],
-    slug: "cream-burgundy-coffee-cup",
-    mainImage: "/piezas/Dec2025/Kahlu_ID21_00003.jpg",
-    gallery: [
-      "/piezas/Dec2025/Kahlu_ID21_00001.jpg",
-      "/piezas/Dec2025/Kahlu_ID21_00003.jpg",
-      "/piezas/Dec2025/Kahlu_ID21_00004.jpg",
-      "/piezas/Dec2025/Kahlu_ID21_00002.jpg",
-      "/piezas/Dec2025/Kahlu_ID21_00005.jpg",
-    ],
-  },
+  
 
   {
     id: "24",
@@ -101,34 +79,7 @@ El esmalte en estilo 'Coral' presenta una base blanca luminosa con sutiles matic
       "/piezas/Dec2025/Kahlu_ID25_00007.jpg",
     ],
   },
-  {
-    id: "10",
-    title: "Azucarera 'Winter Shore'",
-    price: 200.0,
-    stock: 1,
-    description: `
-Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor cilíndrico ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
-
-El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando olas frías rompiendo en la orilla. 
-    `,
-    details: [
-      "Material: Arcilla roja",
-      "Acabado: Esmalte fluido en capas de tonos fríos y cálidos",
-      "Uso: Azucarera, salero, o para guardar té por ejemplo.",
-      "Medidas: 3.5 pulgadas de diámetro × 4.5 pulgadas de altura",
-    ],
-    slug: "azucarera-winter-shore",
-    mainImage: "/piezas/Pieza10_1.jpg",
-    gallery: [
-      "/piezas/Pieza10_1.jpg",
-      "/piezas/Pieza10_2.jpg",
-      "/piezas/Pieza10_3.jpg",
-      "/piezas/Pieza10_4.jpg",
-      "/piezas/Pieza10_5.jpg",
-      "/piezas/Pieza10_6.jpg",
-    ],
-  },
-
+  
   {
     id: "16",
     title: "Azucarera 'Winter Shore' #3",
