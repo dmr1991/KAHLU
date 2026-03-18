@@ -242,7 +242,7 @@ function ProductDetail() {
           }}
         >
           <CustomButton onClick={() => navigate("/contact")}>
-            Consultar disponibilidad
+            Contactar por correo
           </CustomButton>
         </Box>
       </Box>

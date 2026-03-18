@@ -72,8 +72,9 @@ function Contact() {
           fontFamily: "'Montserrat', sans-serif",
         }}
       >
-        Si deseas consultar sobre un pedido personalizado o conocer más sobre mis
-        piezas, completa el formulario o mándame mensaje directo por Instagram o correo electrónico.
+        Si deseas consultar sobre un pedido personalizado o conocer más sobre
+        mis piezas, completa el formulario o mándame mensaje directo por
+        Instagram o correo electrónico.
       </Typography>
 
       {/* Contenedor principal */}
@@ -100,11 +101,46 @@ function Contact() {
             textAlign: "left",
           }}
         >
-          <TextField label="Nombre" name="name" required variant="outlined" fullWidth />
-          <TextField label="Correo electrónico" name="email" type="email" required variant="outlined" fullWidth />
-          <TextField label="Mensaje" name="message" multiline rows={4} required variant="outlined" fullWidth />
+          <TextField
+            label="Nombre"
+            name="name"
+            required
+            variant="outlined"
+            fullWidth
+          />
+          <TextField
+            label="Correo electrónico"
+            name="email"
+            type="email"
+            required
+            variant="outlined"
+            fullWidth
+          />
 
-          <CustomButton type="submit" disabled={status === "sending"} sx={{ mt: 2 }}>
+          {/* Campo añadido: Pieza de interés */}
+          <TextField
+            label="Nombre de la pieza que te interesa"
+            name="piece_name"
+            variant="outlined"
+            fullWidth
+            placeholder="Ejemplo: Tumbler Aurora, Seaside Mug, etc."
+          />
+
+          <TextField
+            label="Mensaje"
+            name="message"
+            multiline
+            rows={4}
+            required
+            variant="outlined"
+            fullWidth
+          />
+
+          <CustomButton
+            type="submit"
+            disabled={status === "sending"}
+            sx={{ mt: 2 }}
+          >
             {status === "sending" ? "Enviando..." : "Enviar mensaje"}
           </CustomButton>
 
@@ -133,15 +169,20 @@ function Contact() {
             p: 4,
           }}
         >
-
-<CustomButton
-  href="https://www.instagram.com/kahlu.ceramica/"
-  target="_blank"
-  sx={{ minWidth: "220px", mb: 3 }}
-  startIcon={<img src="/assets/instagramlogo.png" alt="Instagram" style={{ width: 40, height: 40 }} />}
->
-  Instagram 
-</CustomButton>
+          <CustomButton
+            href="https://www.instagram.com/kahlu.ceramica/"
+            target="_blank"
+            sx={{ minWidth: "220px", mb: 3 }}
+            startIcon={
+              <img
+                src="/assets/instagramlogo.png"
+                alt="Instagram"
+                style={{ width: 40, height: 40 }}
+              />
+            }
+          >
+            Instagram
+          </CustomButton>
 
           {/* Email copiable */}
           <Box
