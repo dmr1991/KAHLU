@@ -31,12 +31,11 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
     ],
   },
 
-  
-
   {
     id: "24",
     title: "'Baby Turtle' Trinket Dish",
-    price: 160,
+    price: 150,
+    oldPrice: 165,
     stock: 1,
     description: `Una pieza narrativa que captura la esencia de las tortuguitas bebés. Este pequeño plato joyero presenta una delicada tortuga marina bebé, situada en la transición exacta donde la arena se encuentra con el agua.
     
@@ -57,7 +56,8 @@ Su esmalte crea un efecto de nieve, fusionando tonos blanco, azules claros y osc
   {
     id: "25",
     title: "'Coral Seashell' Trinket Dish",
-    price: 280,
+    price: 250,
+    oldPrice: 285,
     stock: 1,
     description: `Pieza inspirada en los tesoros marinos. Este plato joyero ha sido modelado totalmente a mano con una silueta basada en la forma de una concha marina abierta, capturando la esencia del océano en una pieza elegante y funcional.
 
@@ -79,7 +79,7 @@ El esmalte en estilo 'Coral' presenta una base blanca luminosa con sutiles matic
       "/piezas/Dec2025/Kahlu_ID25_00007.jpg",
     ],
   },
-  
+
   {
     id: "16",
     title: "Azucarera 'Winter Shore' #3",
@@ -105,7 +105,6 @@ El esmalte fluye en capas de azul profundo, blanco y toques óxido, evocando ola
       "/piezas/Pieza16_4.jpg",
     ],
   },
-  
 ];
 
 export default products;
