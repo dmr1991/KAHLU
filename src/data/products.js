@@ -83,7 +83,8 @@ El esmalte en estilo 'Coral' presenta una base blanca luminosa con sutiles matic
   {
     id: "16",
     title: "Azucarera 'Winter Shore' #3",
-    price: 200.0,
+    price: 145.0,
+    oldPrice: 200.0,
     stock: 1,
     description: `
 Una linda pieza funcional con tapa, ideal como azucarera, para guardar té, o pequeños tesoros. Este contenedor cilíndrico ha sido modelado a mano en torno, dejando la base en el tono natural de la arcilla oscura para un contraste sobrio.
